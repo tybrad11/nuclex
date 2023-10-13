@@ -1,9 +1,8 @@
 import requests
 import os
 import xml.etree.ElementTree as ET
+import config
 
-
-api_key = 'f74d17b978212912c78f17ddea2eb1ed8c08'
 
 # Set the search query parameters
 # for query rules, see https://dataguide.nlm.nih.gov/edirect/esearch.html
