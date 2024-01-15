@@ -1,0 +1,2413 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xml:base="http://webprotege.stanford.edu/NucLex"
+         xmlns="http://webprotege.stanford.edu/NucLex#">
+
+<owl:Ontology rdf:about="http://webprotege.stanford.edu/NucLex"/>
+
+<owl:AnnotationProperty rdf:about="#Preferred_name">
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:AnnotationProperty>
+
+<owl:AnnotationProperty rdf:about="#Parent_class_name">
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:AnnotationProperty>
+
+<owl:AnnotationProperty rdf:about="#RadLex_RID">
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:AnnotationProperty>
+
+<owl:AnnotationProperty rdf:about="#NCI_Thesaurus_Code">
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:AnnotationProperty>
+
+<owl:AnnotationProperty rdf:about="#UMLS_CUI">
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:AnnotationProperty>
+
+<owl:Class rdf:about="#NID000001">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RadLex entity</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">owl:Thing</Parent_class_name>
+  <RadLex_RID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.radlex.org/RID/#RID1</RadLex_RID>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000002">
+  <rdfs:subClassOf rdf:resource="#NID000001"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">radiopharmaceutical therapy</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RadLex entity</Parent_class_name>
+  <NCI_Thesaurus_Code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#c192439</NCI_Thesaurus_Code>
+  <UMLS_CUI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C2094663</UMLS_CUI>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000003">
+  <rdfs:subClassOf rdf:resource="#NID000002"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">prostate-specific membrane antigen radiopharmaceutical therapy</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">radiopharmaceutical therapy</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000004">
+  <rdfs:subClassOf rdf:resource="#NID000002"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOTATATE radiopharmaceutical therapy</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">radiopharmaceutical therapy</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000005">
+  <rdfs:subClassOf rdf:resource="#NID000002"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">radioactive iodine therapy</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">radiopharmaceutical therapy</Parent_class_name>
+  <NCI_Thesaurus_Code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#c157968</NCI_Thesaurus_Code>
+  <UMLS_CUI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0203610</UMLS_CUI>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000006">
+  <rdfs:subClassOf rdf:resource="#NID000005"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">radioactive iodine therapy for thyroid cancer</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">radioactive iodine therapy</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000007">
+  <rdfs:subClassOf rdf:resource="#NID000005"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">radioactive iodine therapy for hyperthyroidism</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">radioactive iodine therapy</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000008">
+  <rdfs:subClassOf rdf:resource="#NID000002"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">radioimmunoconjugate therapy</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">radiopharmaceutical therapy</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000009">
+  <rdfs:subClassOf rdf:resource="#NID000002"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">targeted alpha therapy</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">radiopharmaceutical therapy</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000010">
+  <rdfs:subClassOf rdf:resource="#NID000002"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">neutron capture therapy</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">radiopharmaceutical therapy</Parent_class_name>
+  <UMLS_CUI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0162675</UMLS_CUI>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000011">
+  <rdfs:subClassOf rdf:resource="#NID000002"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">theranostics</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">radiopharmaceutical therapy</Parent_class_name>
+  <UMLS_CUI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C4046052</UMLS_CUI>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000012">
+  <rdfs:subClassOf rdf:resource="#NID000001"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">treatment planning</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RadLex entity</Parent_class_name>
+  <RadLex_RID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.radlex.org/RID/#RID45652</RadLex_RID>
+  <NCI_Thesaurus_Code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#c162700</NCI_Thesaurus_Code>
+  <UMLS_CUI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C5202876</UMLS_CUI>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000013">
+  <rdfs:subClassOf rdf:resource="#NID000012"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">radiopharmaceutical treatment planning</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">treatment planning</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000014">
+  <rdfs:subClassOf rdf:resource="#NID000013"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">radiation dosimetry</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">radiopharmaceutical treatment planning</Parent_class_name>
+  <NCI_Thesaurus_Code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#c15312</NCI_Thesaurus_Code>
+  <UMLS_CUI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0034603</UMLS_CUI>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000015">
+  <rdfs:subClassOf rdf:resource="#NID000014"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">radiation dosimetry calculation method</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">radiation dosimetry</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000016">
+  <rdfs:subClassOf rdf:resource="#NID000015"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">monte carlo radiation dosimetry</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">radiation dosimetry calculation method</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000017">
+  <rdfs:subClassOf rdf:resource="#NID000015"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">voxel-based radiation dosimetry</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">radiation dosimetry calculation method</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000018">
+  <rdfs:subClassOf rdf:resource="#NID000015"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">region-of-interest-based radiation dosimetry</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">radiation dosimetry calculation method</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000019">
+  <rdfs:subClassOf rdf:resource="#NID000015"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organ-based radiation dosimetry</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">radiation dosimetry calculation method</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000020">
+  <rdfs:subClassOf rdf:resource="#NID000015"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kernel-based radiation dosimetry</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">radiation dosimetry calculation method</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000021">
+  <rdfs:subClassOf rdf:resource="#NID000015"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">medical internal radiation dosimetry (MIRD) method</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">radiation dosimetry calculation method</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000022">
+  <rdfs:subClassOf rdf:resource="#NID000014"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">radiation dosimetry imaging</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">radiation dosimetry</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000023">
+  <rdfs:subClassOf rdf:resource="#NID000022"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pre-therapy dosimetry imaging</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">radiation dosimetry imaging</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000024">
+  <rdfs:subClassOf rdf:resource="#NID000023"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pre-therapy diagnostic dosimetry imaging</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pre-therapy dosimetry imaging</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000025">
+  <rdfs:subClassOf rdf:resource="#NID000023"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pre-therapy non-diagnostic dosimetry imaging</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pre-therapy dosimetry imaging</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000026">
+  <rdfs:subClassOf rdf:resource="#NID000022"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">post-injection dosimetry imaging</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">radiation dosimetry imaging</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000027">
+  <rdfs:subClassOf rdf:resource="#NID000022"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multi-time point quantitative SPECT imaging</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">radiation dosimetry imaging</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000028">
+  <rdfs:subClassOf rdf:resource="#NID000022"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mutli-time point quantitative PET imaging</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">radiation dosimetry imaging</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000029">
+  <rdfs:subClassOf rdf:resource="#NID000022"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multi-time point quantitative planar imaging</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">radiation dosimetry imaging</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000030">
+  <rdfs:subClassOf rdf:resource="#NID000022"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">theranostic imaging</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">radiation dosimetry imaging</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000032">
+  <rdfs:subClassOf rdf:resource="#NID000001"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">radiopharmaceutical property</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RadLex entity</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000033">
+  <rdfs:subClassOf rdf:resource="#NID000032"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">radiopharmaceutical manufacturer</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">radiopharmaceutical property</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000034">
+  <rdfs:subClassOf rdf:resource="#NID000032"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">radiopharmaceutical quality property</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">radiopharmaceutical property</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000035">
+  <rdfs:subClassOf rdf:resource="#NID000034"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">specific activity</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">radiopharmaceutical quality property</Parent_class_name>
+  <NCI_Thesaurus_Code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#c111699</NCI_Thesaurus_Code>
+  <UMLS_CUI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C3828414</UMLS_CUI>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000036">
+  <rdfs:subClassOf rdf:resource="#NID000034"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">radiochemical purity</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">radiopharmaceutical quality property</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000037">
+  <rdfs:subClassOf rdf:resource="#NID000032"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">radiopharmaceutical injection property</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">radiopharmaceutical property</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000038">
+  <rdfs:subClassOf rdf:resource="#NID000037"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">injection volume</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">radiopharmaceutical injection property</Parent_class_name>
+  <UMLS_CUI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0941280</UMLS_CUI>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000039">
+  <rdfs:subClassOf rdf:resource="#NID000037"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">injection date</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">radiopharmaceutical injection property</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000040">
+  <rdfs:subClassOf rdf:resource="#NID000037"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">injection time</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">radiopharmaceutical injection property</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000041">
+  <rdfs:subClassOf rdf:resource="#NID000037"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rate of injection</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">radiopharmaceutical injection property</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000042">
+  <rdfs:subClassOf rdf:resource="#NID000037"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">geometry of injection (need better name)</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">radiopharmaceutical injection property</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000043">
+  <rdfs:subClassOf rdf:resource="#NID000001"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">radiopharmaceutical</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RadLex entity</Parent_class_name>
+  <RadLex_RID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.radlex.org/RID/#RID11692</RadLex_RID>
+  <NCI_Thesaurus_Code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#c148548</NCI_Thesaurus_Code>
+  <UMLS_CUI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C4743559</UMLS_CUI>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000044">
+  <rdfs:subClassOf rdf:resource="#NID000043"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">diagnostic radiopharmaceutical</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">radiopharmaceutical</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000045">
+  <rdfs:subClassOf rdf:resource="#NID000044"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">positron emission tomography radiopharmaceutical</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">diagnostic radiopharmaceutical</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000046">
+  <rdfs:subClassOf rdf:resource="#NID000045"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C-11 PBR28</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">positron emission tomography radiopharmaceutical</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000047">
+  <rdfs:subClassOf rdf:resource="#NID000045"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F-18 BS224</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">positron emission tomography radiopharmaceutical</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000048">
+  <rdfs:subClassOf rdf:resource="#NID000045"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F-18 dcfpyl</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">positron emission tomography radiopharmaceutical</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000049">
+  <rdfs:subClassOf rdf:resource="#NID000045"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F-18 DPA-714</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">positron emission tomography radiopharmaceutical</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000050">
+  <rdfs:subClassOf rdf:resource="#NID000045"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F-18 fluorodeoxyglucose</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">positron emission tomography radiopharmaceutical</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000051">
+  <rdfs:subClassOf rdf:resource="#NID000045"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F-18 FEPPA</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">positron emission tomography radiopharmaceutical</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000052">
+  <rdfs:subClassOf rdf:resource="#NID000045"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F-18 flortaucipir</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">positron emission tomography radiopharmaceutical</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000053">
+  <rdfs:subClassOf rdf:resource="#NID000045"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F-18 flutemetamol</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">positron emission tomography radiopharmaceutical</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000054">
+  <rdfs:subClassOf rdf:resource="#NID000045"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F-18 fluoromisonidazole</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">positron emission tomography radiopharmaceutical</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000055">
+  <rdfs:subClassOf rdf:resource="#NID000045"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F-18 MC225</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">positron emission tomography radiopharmaceutical</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000056">
+  <rdfs:subClassOf rdf:resource="#NID000045"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F-18 prostate-specific membrane antigen-1007</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">positron emission tomography radiopharmaceutical</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000057">
+  <rdfs:subClassOf rdf:resource="#NID000045"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ga-68 DFO-B</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">positron emission tomography radiopharmaceutical</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000058">
+  <rdfs:subClassOf rdf:resource="#NID000045"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ga-68 DOTATATE</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">positron emission tomography radiopharmaceutical</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000059">
+  <rdfs:subClassOf rdf:resource="#NID000045"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ga-68 prostate-specific membrane antigen-11</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">positron emission tomography radiopharmaceutical</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000060">
+  <rdfs:subClassOf rdf:resource="#NID000045"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C-11 UCB-J</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">positron emission tomography radiopharmaceutical</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000061">
+  <rdfs:subClassOf rdf:resource="#NID000045"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F-18 bisphenol-a</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">positron emission tomography radiopharmaceutical</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000062">
+  <rdfs:subClassOf rdf:resource="#NID000045"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F-18 dcfpyl</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">positron emission tomography radiopharmaceutical</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000063">
+  <rdfs:subClassOf rdf:resource="#NID000045"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F-18 deoxy-thiamine</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">positron emission tomography radiopharmaceutical</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000064">
+  <rdfs:subClassOf rdf:resource="#NID000045"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F-18 fluorothymidine</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">positron emission tomography radiopharmaceutical</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000065">
+  <rdfs:subClassOf rdf:resource="#NID000045"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F-18 fluciclovine</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">positron emission tomography radiopharmaceutical</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000066">
+  <rdfs:subClassOf rdf:resource="#NID000045"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F-18 FPP-RGD2</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">positron emission tomography radiopharmaceutical</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000067">
+  <rdfs:subClassOf rdf:resource="#NID000045"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F-18 GE-180</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">positron emission tomography radiopharmaceutical</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000068">
+  <rdfs:subClassOf rdf:resource="#NID000045"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F-18 ICMT-11</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">positron emission tomography radiopharmaceutical</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000069">
+  <rdfs:subClassOf rdf:resource="#NID000045"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F-18 sodium fluoride</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">positron emission tomography radiopharmaceutical</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000070">
+  <rdfs:subClassOf rdf:resource="#NID000045"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F-18 rhpsma-7.3</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">positron emission tomography radiopharmaceutical</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000071">
+  <rdfs:subClassOf rdf:resource="#NID000045"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cu-64 Cu-ATSM</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">positron emission tomography radiopharmaceutical</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000072">
+  <rdfs:subClassOf rdf:resource="#NID000045"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ga-68 DOTATOC</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">positron emission tomography radiopharmaceutical</Parent_class_name>
+  <UMLS_CUI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C3640098</UMLS_CUI>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000073">
+  <rdfs:subClassOf rdf:resource="#NID000045"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ga-68 fibroblast activation protein inhibitor</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">positron emission tomography radiopharmaceutical</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000074">
+  <rdfs:subClassOf rdf:resource="#NID000045"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ga-68 NODAGA-RGD</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">positron emission tomography radiopharmaceutical</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000075">
+  <rdfs:subClassOf rdf:resource="#NID000045"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C-11 PK11195</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">positron emission tomography radiopharmaceutical</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000076">
+  <rdfs:subClassOf rdf:resource="#NID000045"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F-18 FET</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">positron emission tomography radiopharmaceutical</Parent_class_name>
+  <UMLS_CUI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C1831729</UMLS_CUI>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000077">
+  <rdfs:subClassOf rdf:resource="#NID000045"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F-18 fluoromisonidazole</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">positron emission tomography radiopharmaceutical</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000078">
+  <rdfs:subClassOf rdf:resource="#NID000045"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ga-68 fibroblast activation protein-2286</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">positron emission tomography radiopharmaceutical</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000079">
+  <rdfs:subClassOf rdf:resource="#NID000045"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">see list</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">positron emission tomography radiopharmaceutical</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000080">
+  <rdfs:subClassOf rdf:resource="#NID000044"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">single-photon emission computed tomography radiopharmaceutical</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">diagnostic radiopharmaceutical</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000081">
+  <rdfs:subClassOf rdf:resource="#NID000080"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tc-99m macroaggregated albumin</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">single-photon emission computed tomography radiopharmaceutical</Parent_class_name>
+  <RadLex_RID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.radlex.org/RID/#RID11737</RadLex_RID>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000082">
+  <rdfs:subClassOf rdf:resource="#NID000080"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">I-123 ioflupane</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">single-photon emission computed tomography radiopharmaceutical</Parent_class_name>
+  <RadLex_RID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.radlex.org/RID/#RID49616</RadLex_RID>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000083">
+  <rdfs:subClassOf rdf:resource="#NID000080"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">I-123 metaiodobenzylguanidine</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">single-photon emission computed tomography radiopharmaceutical</Parent_class_name>
+  <RadLex_RID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.radlex.org/RID/#RID50391</RadLex_RID>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000084">
+  <rdfs:subClassOf rdf:resource="#NID000080"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">see list</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">single-photon emission computed tomography radiopharmaceutical</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000085">
+  <rdfs:subClassOf rdf:resource="#NID000043"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">therapeutic radiopharmaceutical</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">radiopharmaceutical</Parent_class_name>
+  <UMLS_CUI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0358509</UMLS_CUI>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000086">
+  <rdfs:subClassOf rdf:resource="#NID000085"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lu-177 prostate-specific membrane antigen</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">therapeutic radiopharmaceutical</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000087">
+  <rdfs:subClassOf rdf:resource="#NID000086"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lu-177 prostate-specific membrane antigen-617</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lu-177 prostate-specific membrane antigen</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000088">
+  <rdfs:subClassOf rdf:resource="#NID000085"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ac-225 PSMA</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">therapeutic radiopharmaceutical</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000089">
+  <rdfs:subClassOf rdf:resource="#NID000088"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ac-225 PSMA-617</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ac-225 PSMA</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000090">
+  <rdfs:subClassOf rdf:resource="#NID000085"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lu-177-DOTATATE</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">therapeutic radiopharmaceutical</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000091">
+  <rdfs:subClassOf rdf:resource="#NID000085"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">I-131 sodium iodide</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">therapeutic radiopharmaceutical</Parent_class_name>
+  <UMLS_CUI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0304982</UMLS_CUI>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000092">
+  <rdfs:subClassOf rdf:resource="#NID000085"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">I-131 tositumomab</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">therapeutic radiopharmaceutical</Parent_class_name>
+  <RadLex_RID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.radlex.org/RID/#RID45773</RadLex_RID>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000093">
+  <rdfs:subClassOf rdf:resource="#NID000085"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">I-131 tenatumomab</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">therapeutic radiopharmaceutical</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000094">
+  <rdfs:subClassOf rdf:resource="#NID000085"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">I-131 iobenguane</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">therapeutic radiopharmaceutical</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000095">
+  <rdfs:subClassOf rdf:resource="#NID000085"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sm-153 lexidronam</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">therapeutic radiopharmaceutical</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000096">
+  <rdfs:subClassOf rdf:resource="#NID000085"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Sr-89 chloride</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">therapeutic radiopharmaceutical</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000097">
+  <rdfs:subClassOf rdf:resource="#NID000085"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ra-223 racl2</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">therapeutic radiopharmaceutical</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000098">
+  <rdfs:subClassOf rdf:resource="#NID000085"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alpha-emitting radiopharmaceutical</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">therapeutic radiopharmaceutical</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000099">
+  <rdfs:subClassOf rdf:resource="#NID000085"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">beta-emitting radiopharmacuetical</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">therapeutic radiopharmaceutical</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000100">
+  <rdfs:subClassOf rdf:resource="#NID000085"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">I-131 MIBG therapy</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">therapeutic radiopharmaceutical</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000101">
+  <rdfs:subClassOf rdf:resource="#NID000085"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lu-177 prostate-specific membrane antigen therapy</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">therapeutic radiopharmaceutical</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000102">
+  <rdfs:subClassOf rdf:resource="#NID000085"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Re-188 liposome</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">therapeutic radiopharmaceutical</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000103">
+  <rdfs:subClassOf rdf:resource="#NID000085"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">At-211 meta-astatobenzylguanidine</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">therapeutic radiopharmaceutical</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000104">
+  <rdfs:subClassOf rdf:resource="#NID000085"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ac-225 prostate-specific membrane antigen-617</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">therapeutic radiopharmaceutical</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000106">
+  <rdfs:subClassOf rdf:resource="#NID000001"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">non-anatomical substance</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RadLex entity</Parent_class_name>
+  <RadLex_RID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.radlex.org/RID/#RID7479</RadLex_RID>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000107">
+  <rdfs:subClassOf rdf:resource="#NID000106"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">radioisotope</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">non-anatomical substance</Parent_class_name>
+  <RadLex_RID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.radlex.org/RID/#RID11695</RadLex_RID>
+  <NCI_Thesaurus_Code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#c799</NCI_Thesaurus_Code>
+  <UMLS_CUI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0034595</UMLS_CUI>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000108">
+  <rdfs:subClassOf rdf:resource="#NID000107"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">In-111</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">radioisotope</Parent_class_name>
+  <RadLex_RID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.radlex.org/RID/#RID45775</RadLex_RID>
+  <UMLS_CUI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0303403</UMLS_CUI>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000109">
+  <rdfs:subClassOf rdf:resource="#NID000107"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C-11</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">radioisotope</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000110">
+  <rdfs:subClassOf rdf:resource="#NID000107"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">I-123</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">radioisotope</Parent_class_name>
+  <RadLex_RID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.radlex.org/RID/#RID43384</RadLex_RID>
+  <UMLS_CUI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C3495673</UMLS_CUI>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000111">
+  <rdfs:subClassOf rdf:resource="#NID000107"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">I-124</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">radioisotope</Parent_class_name>
+  <UMLS_CUI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0303024</UMLS_CUI>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000112">
+  <rdfs:subClassOf rdf:resource="#NID000107"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">I-131</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">radioisotope</Parent_class_name>
+  <RadLex_RID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.radlex.org/RID/#RID43386</RadLex_RID>
+  <UMLS_CUI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0303029</UMLS_CUI>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000113">
+  <rdfs:subClassOf rdf:resource="#NID000107"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tb-161</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">radioisotope</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000114">
+  <rdfs:subClassOf rdf:resource="#NID000107"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lu-177</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">radioisotope</Parent_class_name>
+  <UMLS_CUI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C2959378</UMLS_CUI>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000115">
+  <rdfs:subClassOf rdf:resource="#NID000107"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F-18</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">radioisotope</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000116">
+  <rdfs:subClassOf rdf:resource="#NID000107"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tl-201</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">radioisotope</Parent_class_name>
+  <UMLS_CUI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C1955147</UMLS_CUI>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000117">
+  <rdfs:subClassOf rdf:resource="#NID000107"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">At-211</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">radioisotope</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000118">
+  <rdfs:subClassOf rdf:resource="#NID000107"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pb-212</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">radioisotope</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000119">
+  <rdfs:subClassOf rdf:resource="#NID000107"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bi-213</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">radioisotope</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000120">
+  <rdfs:subClassOf rdf:resource="#NID000107"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rn-219</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">radioisotope</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000121">
+  <rdfs:subClassOf rdf:resource="#NID000107"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ra-223</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">radioisotope</Parent_class_name>
+  <UMLS_CUI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0303282</UMLS_CUI>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000122">
+  <rdfs:subClassOf rdf:resource="#NID000107"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ac-225</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">radioisotope</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000123">
+  <rdfs:subClassOf rdf:resource="#NID000107"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sc-44</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">radioisotope</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000124">
+  <rdfs:subClassOf rdf:resource="#NID000107"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cu-64</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">radioisotope</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000125">
+  <rdfs:subClassOf rdf:resource="#NID000107"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ga-68</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">radioisotope</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000126">
+  <rdfs:subClassOf rdf:resource="#NID000107"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rb-82</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">radioisotope</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000127">
+  <rdfs:subClassOf rdf:resource="#NID000107"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zr-89</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">radioisotope</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000128">
+  <rdfs:subClassOf rdf:resource="#NID000107"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Y-90</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">radioisotope</Parent_class_name>
+  <UMLS_CUI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0303596</UMLS_CUI>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000129">
+  <rdfs:subClassOf rdf:resource="#NID000107"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tc-99m</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">radioisotope</Parent_class_name>
+  <RadLex_RID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.radlex.org/RID/#RID50051</RadLex_RID>
+  <UMLS_CUI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0303611</UMLS_CUI>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000130">
+  <rdfs:subClassOf rdf:resource="#NID000106"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">subatomic particle</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">non-anatomical substance</Parent_class_name>
+  <NCI_Thesaurus_Code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#c40429</NCI_Thesaurus_Code>
+  <UMLS_CUI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0013878</UMLS_CUI>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000131">
+  <rdfs:subClassOf rdf:resource="#NID000130"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">photon</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">subatomic particle</Parent_class_name>
+  <NCI_Thesaurus_Code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#c88112</NCI_Thesaurus_Code>
+  <UMLS_CUI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0086805</UMLS_CUI>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000132">
+  <rdfs:subClassOf rdf:resource="#NID000131"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">x-ray</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">photon</Parent_class_name>
+  <NCI_Thesaurus_Code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#c17262</NCI_Thesaurus_Code>
+  <UMLS_CUI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0043299</UMLS_CUI>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000133">
+  <rdfs:subClassOf rdf:resource="#NID000132"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">characteristic x-ray</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">x-ray</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000134">
+  <rdfs:subClassOf rdf:resource="#NID000131"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gamma ray</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">photon</Parent_class_name>
+  <NCI_Thesaurus_Code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#c44386</NCI_Thesaurus_Code>
+  <UMLS_CUI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0017011</UMLS_CUI>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000135">
+  <rdfs:subClassOf rdf:resource="#NID000134"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">annihilation gamma ray</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gamma ray</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000136">
+  <rdfs:subClassOf rdf:resource="#NID000130"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">neutron</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">subatomic particle</Parent_class_name>
+  <NCI_Thesaurus_Code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#c40432</NCI_Thesaurus_Code>
+  <UMLS_CUI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0027946</UMLS_CUI>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000137">
+  <rdfs:subClassOf rdf:resource="#NID000130"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">positron</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">subatomic particle</Parent_class_name>
+  <NCI_Thesaurus_Code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#c94957</NCI_Thesaurus_Code>
+  <UMLS_CUI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0032744</UMLS_CUI>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000138">
+  <rdfs:subClassOf rdf:resource="#NID000130"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alpha particle</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">subatomic particle</Parent_class_name>
+  <NCI_Thesaurus_Code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#c16279</NCI_Thesaurus_Code>
+  <UMLS_CUI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0002217</UMLS_CUI>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000139">
+  <rdfs:subClassOf rdf:resource="#NID000130"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">electron</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">subatomic particle</Parent_class_name>
+  <NCI_Thesaurus_Code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#c40428</NCI_Thesaurus_Code>
+  <UMLS_CUI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0013852</UMLS_CUI>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000140">
+  <rdfs:subClassOf rdf:resource="#NID000139"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">auger electron</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">electron</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000141">
+  <rdfs:subClassOf rdf:resource="#NID000130"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">proton</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">subatomic particle</Parent_class_name>
+  <NCI_Thesaurus_Code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#c17024</NCI_Thesaurus_Code>
+  <UMLS_CUI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0436226</UMLS_CUI>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000144">
+  <rdfs:subClassOf rdf:resource="#NID000001"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">imaging quantification volumes</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RadLex entity</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000145">
+  <rdfs:subClassOf rdf:resource="#NID000144"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kidney quantification volume</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">imaging quantification volumes</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000146">
+  <rdfs:subClassOf rdf:resource="#NID000145"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kidney suborgan quantification volumes</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kidney quantification volume</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000147">
+  <rdfs:subClassOf rdf:resource="#NID000146"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kidney 1 (cortex + medulla + pelvis)</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kidney suborgan quantification volumes</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000148">
+  <rdfs:subClassOf rdf:resource="#NID000146"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kidney 2  (cortex + medulla)</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kidney suborgan quantification volumes</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000149">
+  <rdfs:subClassOf rdf:resource="#NID000146"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kidney 3 (cortex)</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kidney suborgan quantification volumes</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000150">
+  <rdfs:subClassOf rdf:resource="#NID000145"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">right kidney quantification volume</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kidney quantification volume</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000151">
+  <rdfs:subClassOf rdf:resource="#NID000145"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">left kidney quantification volume</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kidney quantification volume</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000152">
+  <rdfs:subClassOf rdf:resource="#NID000144"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bone marrow quantification volume</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">imaging quantification volumes</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000155">
+  <rdfs:subClassOf rdf:resource="#NID000001"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">measurement procedure</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RadLex entity</Parent_class_name>
+  <RadLex_RID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.radlex.org/RID/#RID48094</RadLex_RID>
+  <UMLS_CUI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0242485</UMLS_CUI>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000157">
+  <rdfs:subClassOf rdf:resource="#NID000001"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">image processing method</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RadLex entity</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000158">
+  <rdfs:subClassOf rdf:resource="#NID000157"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">segmentation method</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">image processing method</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000159">
+  <rdfs:subClassOf rdf:resource="#NID000158"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">manual segmentation</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">segmentation method</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000160">
+  <rdfs:subClassOf rdf:resource="#NID000159"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">human non-expert segmentation</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">manual segmentation</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000161">
+  <rdfs:subClassOf rdf:resource="#NID000159"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">human expert segmentation</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">manual segmentation</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000162">
+  <rdfs:subClassOf rdf:resource="#NID000158"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">semi-automatic segmentation</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">segmentation method</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000163">
+  <rdfs:subClassOf rdf:resource="#NID000162"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">threshold segmentation</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">semi-automatic segmentation</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000164">
+  <rdfs:subClassOf rdf:resource="#NID000163"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">relative threshold segmentation</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">threshold segmentation</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000165">
+  <rdfs:subClassOf rdf:resource="#NID000163"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">absolute threshold segmentation</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">threshold segmentation</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000166">
+  <rdfs:subClassOf rdf:resource="#NID000163"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">adaptive threshold segmentation</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">threshold segmentation</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000167">
+  <rdfs:subClassOf rdf:resource="#NID000158"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">automatic segmentation</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">segmentation method</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000168">
+  <rdfs:subClassOf rdf:resource="#NID000167"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">aritificial intelligence segmentation</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">automatic segmentation</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000170">
+  <rdfs:subClassOf rdf:resource="#NID000001"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">quantification image</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RadLex entity</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000171">
+  <rdfs:subClassOf rdf:resource="#NID000170"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">primary quantification image</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">quantification image</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000172">
+  <rdfs:subClassOf rdf:resource="#NID000170"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ancillary quantification image</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">quantification image</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000174">
+  <rdfs:subClassOf rdf:resource="#NID000001"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">imaging observation</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RadLex entity</Parent_class_name>
+  <RadLex_RID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.radlex.org/RID/#RID5</RadLex_RID>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000175">
+  <rdfs:subClassOf rdf:resource="#NID000174"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">numerical measurement</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">imaging observation</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000176">
+  <rdfs:subClassOf rdf:resource="#NID000175"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">volume-based measurement</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">numerical measurement</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000177">
+  <rdfs:subClassOf rdf:resource="#NID000176"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">metabolic tumor volume</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">volume-based measurement</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000178">
+  <rdfs:subClassOf rdf:resource="#NID000176"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tumor volume</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">volume-based measurement</Parent_class_name>
+  <NCI_Thesaurus_Code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#c94515</NCI_Thesaurus_Code>
+  <UMLS_CUI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0475276</UMLS_CUI>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000179">
+  <rdfs:subClassOf rdf:resource="#NID000176"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">total lesion glygolysis</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">volume-based measurement</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000180">
+  <rdfs:subClassOf rdf:resource="#NID000175"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">length-based measurement</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">numerical measurement</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000181">
+  <rdfs:subClassOf rdf:resource="#NID000175"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concentration-based measurement</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">numerical measurement</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000182">
+  <rdfs:subClassOf rdf:resource="#NID000181"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bequerel per mililiter</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concentration-based measurement</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000183">
+  <rdfs:subClassOf rdf:resource="#NID000181"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">standardized uptake value measurement</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concentration-based measurement</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000184">
+  <rdfs:subClassOf rdf:resource="#NID000183"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mean standardized uptake value</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">standardized uptake value measurement</Parent_class_name>
+  <NCI_Thesaurus_Code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#c181544</NCI_Thesaurus_Code>
+  <UMLS_CUI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C5557136</UMLS_CUI>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000185">
+  <rdfs:subClassOf rdf:resource="#NID000183"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">maximum standardized uptake value</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">standardized uptake value measurement</Parent_class_name>
+  <NCI_Thesaurus_Code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#c95012</NCI_Thesaurus_Code>
+  <UMLS_CUI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C2986846</UMLS_CUI>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000186">
+  <rdfs:subClassOf rdf:resource="#NID000183"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">peak standardized uptake value</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">standardized uptake value measurement</Parent_class_name>
+  <NCI_Thesaurus_Code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#c95013</NCI_Thesaurus_Code>
+  <UMLS_CUI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C2986847</UMLS_CUI>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000187">
+  <rdfs:subClassOf rdf:resource="#NID000175"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kinetic measurement</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">numerical measurement</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000188">
+  <rdfs:subClassOf rdf:resource="#NID000187"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">perfusion</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kinetic measurement</Parent_class_name>
+  <NCI_Thesaurus_Code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#c150246</NCI_Thesaurus_Code>
+  <UMLS_CUI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0574032</UMLS_CUI>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000189">
+  <rdfs:subClassOf rdf:resource="#NID000187"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">residence time</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kinetic measurement</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000190">
+  <rdfs:subClassOf rdf:resource="#NID000187"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">time activity curve</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kinetic measurement</Parent_class_name>
+  <NCI_Thesaurus_Code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#c95014</NCI_Thesaurus_Code>
+  <UMLS_CUI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C2986848</UMLS_CUI>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000191">
+  <rdfs:subClassOf rdf:resource="#NID000187"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">arterial input function</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kinetic measurement</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000192">
+  <rdfs:subClassOf rdf:resource="#NID000175"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">heterogeneity measurement</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">numerical measurement</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000193">
+  <rdfs:subClassOf rdf:resource="#NID000175"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">shape measurement</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">numerical measurement</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000194">
+  <rdfs:subClassOf rdf:resource="#NID000175"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">binding affinity</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">numerical measurement</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000196">
+  <rdfs:subClassOf rdf:resource="#NID000174"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">assessment</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">imaging observation</Parent_class_name>
+  <RadLex_RID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.radlex.org/RID/#RID36026</RadLex_RID>
+  <NCI_Thesaurus_Code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#c20989</NCI_Thesaurus_Code>
+  <UMLS_CUI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0870300</UMLS_CUI>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000197">
+  <rdfs:subClassOf rdf:resource="#NID000196"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">visual assessment scale</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">assessment</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000198">
+  <rdfs:subClassOf rdf:resource="#NID000197"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">visual lymphoma assessment scale</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">visual assessment scale</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000199">
+  <rdfs:subClassOf rdf:resource="#NID000198"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">deauville five-point scale</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">visual lymphoma assessment scale</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000200">
+  <rdfs:subClassOf rdf:resource="#NID000198"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lugano five-point scale</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">visual lymphoma assessment scale</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000201">
+  <rdfs:subClassOf rdf:resource="#NID000001"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">property</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RadLex entity</Parent_class_name>
+  <RadLex_RID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.radlex.org/RID/#RID35977</RadLex_RID>
+  <NCI_Thesaurus_Code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#c166373</NCI_Thesaurus_Code>
+  <UMLS_CUI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C1264636</UMLS_CUI>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000202">
+  <rdfs:subClassOf rdf:resource="#NID000201"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">measurement unit</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">property</Parent_class_name>
+  <RadLex_RID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.radlex.org/RID/#RID39160</RadLex_RID>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000203">
+  <rdfs:subClassOf rdf:resource="#NID000202"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">imaging pixel unit</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">measurement unit</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000204">
+  <rdfs:subClassOf rdf:resource="#NID000203"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">activity concentration</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">imaging pixel unit</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000205">
+  <rdfs:subClassOf rdf:resource="#NID000204"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bequrel per mililiter</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">activity concentration</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000206">
+  <rdfs:subClassOf rdf:resource="#NID000204"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bequrel per mililiter</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">activity concentration</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000207">
+  <rdfs:subClassOf rdf:resource="#NID000203"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">standardized uptake value</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">imaging pixel unit</Parent_class_name>
+  <NCI_Thesaurus_Code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#c69310</NCI_Thesaurus_Code>
+  <UMLS_CUI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C2348529</UMLS_CUI>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000208">
+  <rdfs:subClassOf rdf:resource="#NID000207"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">standardized uptake value body weight</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">standardized uptake value</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000209">
+  <rdfs:subClassOf rdf:resource="#NID000207"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">standardized uptake value lean body mass</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">standardized uptake value</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000210">
+  <rdfs:subClassOf rdf:resource="#NID000203"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">percent of injected dose per gram of tissue</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">imaging pixel unit</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000211">
+  <rdfs:subClassOf rdf:resource="#NID000203"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">counts</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">imaging pixel unit</Parent_class_name>
+  <UMLS_CUI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0439157</UMLS_CUI>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000212">
+  <rdfs:subClassOf rdf:resource="#NID000202"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hounsfield unit</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">measurement unit</Parent_class_name>
+  <NCI_Thesaurus_Code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#c94908</NCI_Thesaurus_Code>
+  <UMLS_CUI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C1552985</UMLS_CUI>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000213">
+  <rdfs:subClassOf rdf:resource="#NID000001"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">medical device</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RadLex entity</Parent_class_name>
+  <RadLex_RID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.radlex.org/RID/#RID29033</RadLex_RID>
+  <NCI_Thesaurus_Code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#c16830</NCI_Thesaurus_Code>
+  <UMLS_CUI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0025080</UMLS_CUI>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000214">
+  <rdfs:subClassOf rdf:resource="#NID000213"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">activity meter</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">medical device</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000215">
+  <rdfs:subClassOf rdf:resource="#NID000214"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dose calibrator</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">activity meter</Parent_class_name>
+  <NCI_Thesaurus_Code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#c94887</NCI_Thesaurus_Code>
+  <UMLS_CUI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C2986741</UMLS_CUI>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000216">
+  <rdfs:subClassOf rdf:resource="#NID000214"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scintillation counter</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">activity meter</Parent_class_name>
+  <NCI_Thesaurus_Code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#c50062</NCI_Thesaurus_Code>
+  <UMLS_CUI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C1710025</UMLS_CUI>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000217">
+  <rdfs:subClassOf rdf:resource="#NID000216"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">well counter</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scintillation counter</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000218">
+  <rdfs:subClassOf rdf:resource="#NID000217"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">auto gamma counter</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">well counter</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000219">
+  <rdfs:subClassOf rdf:resource="#NID000217"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multi-well counter</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">well counter</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000220">
+  <rdfs:subClassOf rdf:resource="#NID000216"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">thyroid probe</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scintillation counter</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000221">
+  <rdfs:subClassOf rdf:resource="#NID000213"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scanner device</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">medical device</Parent_class_name>
+  <NCI_Thesaurus_Code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#c50158</NCI_Thesaurus_Code>
+  <UMLS_CUI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C1710020</UMLS_CUI>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000222">
+  <rdfs:subClassOf rdf:resource="#NID000221"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nuclear medicine scanner</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scanner device</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000223">
+  <rdfs:subClassOf rdf:resource="#NID000222"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">single-modality nuclear medicine scanner</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nuclear medicine scanner</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000224">
+  <rdfs:subClassOf rdf:resource="#NID000223"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gamma camera</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">single-modality nuclear medicine scanner</Parent_class_name>
+  <RadLex_RID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.radlex.org/RID/#RID10965</RadLex_RID>
+  <NCI_Thesaurus_Code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#c16600</NCI_Thesaurus_Code>
+  <UMLS_CUI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0017004</UMLS_CUI>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000225">
+  <rdfs:subClassOf rdf:resource="#NID000223"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PET scanner</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">single-modality nuclear medicine scanner</Parent_class_name>
+  <UMLS_CUI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0182349</UMLS_CUI>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000226">
+  <rdfs:subClassOf rdf:resource="#NID000223"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SPECT scanner</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">single-modality nuclear medicine scanner</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000227">
+  <rdfs:subClassOf rdf:resource="#NID000222"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dual-modality nuclear medicine scanner</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nuclear medicine scanner</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000228">
+  <rdfs:subClassOf rdf:resource="#NID000227"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PET/CT scanner</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dual-modality nuclear medicine scanner</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000229">
+  <rdfs:subClassOf rdf:resource="#NID000227"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PET/MR scanner</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dual-modality nuclear medicine scanner</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000230">
+  <rdfs:subClassOf rdf:resource="#NID000227"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SPECT/CT scanner</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dual-modality nuclear medicine scanner</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000231">
+  <rdfs:subClassOf rdf:resource="#NID000222"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dedicated nuclear medicine scanner</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nuclear medicine scanner</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000232">
+  <rdfs:subClassOf rdf:resource="#NID000231"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cardiac SPECT scanner</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dedicated nuclear medicine scanner</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000233">
+  <rdfs:subClassOf rdf:resource="#NID000231"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cardiac gamma camera</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dedicated nuclear medicine scanner</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000234">
+  <rdfs:subClassOf rdf:resource="#NID000231"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">brain PET scanner</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dedicated nuclear medicine scanner</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000235">
+  <rdfs:subClassOf rdf:resource="#NID000231"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">brain PET/CT scanner</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dedicated nuclear medicine scanner</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000236">
+  <rdfs:subClassOf rdf:resource="#NID000231"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">brain PET/MR scanner</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dedicated nuclear medicine scanner</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000237">
+  <rdfs:subClassOf rdf:resource="#NID000231"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">brain SPECT scanner</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dedicated nuclear medicine scanner</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000238">
+  <rdfs:subClassOf rdf:resource="#NID000231"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">brain SPECT/CT scanner</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dedicated nuclear medicine scanner</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000239">
+  <rdfs:subClassOf rdf:resource="#NID000231"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">breast PET scanner</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dedicated nuclear medicine scanner</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000240">
+  <rdfs:subClassOf rdf:resource="#NID000231"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">breast PET/CT scanner</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dedicated nuclear medicine scanner</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000241">
+  <rdfs:subClassOf rdf:resource="#NID000231"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">breast PET/MR scanner</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dedicated nuclear medicine scanner</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000242">
+  <rdfs:subClassOf rdf:resource="#NID000222"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">preclinical nuclear medicine scanner</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nuclear medicine scanner</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000243">
+  <rdfs:subClassOf rdf:resource="#NID000242"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">small animal PET/CT scanner</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">preclinical nuclear medicine scanner</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000244">
+  <rdfs:subClassOf rdf:resource="#NID000242"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">small animal PET scanner</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">preclinical nuclear medicine scanner</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000245">
+  <rdfs:subClassOf rdf:resource="#NID000242"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">small animal SPECT/CT scanner</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">preclinical nuclear medicine scanner</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000246">
+  <rdfs:subClassOf rdf:resource="#NID000242"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">small animal SPECT scanner</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">preclinical nuclear medicine scanner</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000247">
+  <rdfs:subClassOf rdf:resource="#NID000213"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nuclear detector device</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">medical device</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000248">
+  <rdfs:subClassOf rdf:resource="#NID000247"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">analogue detector device</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nuclear detector device</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000249">
+  <rdfs:subClassOf rdf:resource="#NID000248"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">photomultiplier tube</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">analogue detector device</Parent_class_name>
+  <NCI_Thesaurus_Code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#c50328</NCI_Thesaurus_Code>
+  <UMLS_CUI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C1709530</UMLS_CUI>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000250">
+  <rdfs:subClassOf rdf:resource="#NID000247"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">digital detector device</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nuclear detector device</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000251">
+  <rdfs:subClassOf rdf:resource="#NID000250"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">silicon photomultiplier</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">digital detector device</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000252">
+  <rdfs:subClassOf rdf:resource="#NID000250"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">avalanch photodiode</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">digital detector device</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000255">
+  <rdfs:subClassOf rdf:resource="#NID000213"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nuclaer medicine device calibration method</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">medical device</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000256">
+  <rdfs:subClassOf rdf:resource="#NID000255"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reference standard quantitative calibration</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nuclaer medicine device calibration method</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000257">
+  <rdfs:subClassOf rdf:resource="#NID000256"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">primary standard quantitative calibration</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reference standard quantitative calibration</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000258">
+  <rdfs:subClassOf rdf:resource="#NID000256"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">secondary standard quantitative calibration</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reference standard quantitative calibration</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000259">
+  <rdfs:subClassOf rdf:resource="#NID000255"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">calibration method property</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nuclaer medicine device calibration method</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000260">
+  <rdfs:subClassOf rdf:resource="#NID000259"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">source geometry</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">calibration method property</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000261">
+  <rdfs:subClassOf rdf:resource="#NID000260"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">volumetric source</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">source geometry</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000262">
+  <rdfs:subClassOf rdf:resource="#NID000260"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">point source</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">source geometry</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000263">
+  <rdfs:subClassOf rdf:resource="#NID000260"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">planar source</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">source geometry</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000264">
+  <rdfs:subClassOf rdf:resource="#NID000260"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">annulus source</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">source geometry</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000265">
+  <rdfs:subClassOf rdf:resource="#NID000213"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">radiological quality assurance device</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">medical device</Parent_class_name>
+  <UMLS_CUI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C3873810</UMLS_CUI>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000266">
+  <rdfs:subClassOf rdf:resource="#NID000265"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">phantom</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">radiological quality assurance device</Parent_class_name>
+  <NCI_Thesaurus_Code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#c170545</NCI_Thesaurus_Code>
+  <UMLS_CUI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0282611</UMLS_CUI>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000267">
+  <rdfs:subClassOf rdf:resource="#NID000266"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nuclear medicine phantom</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">phantom</Parent_class_name>
+  <UMLS_CUI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0182238</UMLS_CUI>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000268">
+  <rdfs:subClassOf rdf:resource="#NID000267"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">jaszczak phantom</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nuclear medicine phantom</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000269">
+  <rdfs:subClassOf rdf:resource="#NID000267"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RADAR phantom</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nuclear medicine phantom</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000270">
+  <rdfs:subClassOf rdf:resource="#NID000267"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NEMA IEC body phantom</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nuclear medicine phantom</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000271">
+  <rdfs:subClassOf rdf:resource="#NID000267"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acr-approved phantom</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nuclear medicine phantom</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000277">
+  <rdfs:subClassOf rdf:resource="#NID000001"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">medical device property</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RadLex entity</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000278">
+  <rdfs:subClassOf rdf:resource="#NID000277"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scanner device property</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">medical device property</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000279">
+  <rdfs:subClassOf rdf:resource="#NID000278"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scanner performance property</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scanner device property</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000280">
+  <rdfs:subClassOf rdf:resource="#NID000279"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">general scanner performance characteristics</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scanner performance property</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000281">
+  <rdfs:subClassOf rdf:resource="#NID000280"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">spatial resolution</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">general scanner performance characteristics</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000282">
+  <rdfs:subClassOf rdf:resource="#NID000280"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">low contrast resolution</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">general scanner performance characteristics</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000283">
+  <rdfs:subClassOf rdf:resource="#NID000280"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">quantitative accuracy</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">general scanner performance characteristics</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000284">
+  <rdfs:subClassOf rdf:resource="#NID000279"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nuclear medicine scanner performance characteristics</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scanner performance property</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000285">
+  <rdfs:subClassOf rdf:resource="#NID000284"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">detection sensitivity</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nuclear medicine scanner performance characteristics</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000286">
+  <rdfs:subClassOf rdf:resource="#NID000284"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">peak noise-equivalent count rate</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nuclear medicine scanner performance characteristics</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000287">
+  <rdfs:subClassOf rdf:resource="#NID000284"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">recovery coefficient</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nuclear medicine scanner performance characteristics</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000288">
+  <rdfs:subClassOf rdf:resource="#NID000284"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scatter fraction</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nuclear medicine scanner performance characteristics</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000289">
+  <rdfs:subClassOf rdf:resource="#NID000284"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dead time</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nuclear medicine scanner performance characteristics</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000290">
+  <rdfs:subClassOf rdf:resource="#NID000284"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">coincidence timing resolution</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nuclear medicine scanner performance characteristics</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000291">
+  <rdfs:subClassOf rdf:resource="#NID000284"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">intrinsic spatial resolution</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nuclear medicine scanner performance characteristics</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000292">
+  <rdfs:subClassOf rdf:resource="#NID000284"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">system spatial resolution</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nuclear medicine scanner performance characteristics</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000293">
+  <rdfs:subClassOf rdf:resource="#NID000278"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nuclear medicine scanner property</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scanner device property</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000294">
+  <rdfs:subClassOf rdf:resource="#NID000293"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">collimator type</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nuclear medicine scanner property</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000295">
+  <rdfs:subClassOf rdf:resource="#NID000278"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PET scanner property</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scanner device property</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000296">
+  <rdfs:subClassOf rdf:resource="#NID000278"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acquisition field of view</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scanner device property</Parent_class_name>
+  <RadLex_RID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.radlex.org/RID/#RID12355</RadLex_RID>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000297">
+  <rdfs:subClassOf rdf:resource="#NID000296"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">axial field of view</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acquisition field of view</Parent_class_name>
+  <NCI_Thesaurus_Code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#c94863</NCI_Thesaurus_Code>
+  <UMLS_CUI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C2986724</UMLS_CUI>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000298">
+  <rdfs:subClassOf rdf:resource="#NID000296"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bore size</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acquisition field of view</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000299">
+  <rdfs:subClassOf rdf:resource="#NID000296"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">transaxial field of view</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acquisition field of view</Parent_class_name>
+  <NCI_Thesaurus_Code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#c94995</NCI_Thesaurus_Code>
+  <UMLS_CUI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C2986832</UMLS_CUI>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000300">
+  <rdfs:subClassOf rdf:resource="#NID000277"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">device characteristics measurement method</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">medical device property</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000304">
+  <rdfs:subClassOf rdf:resource="#NID000001"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">imaging procedure property</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RadLex entity</Parent_class_name>
+  <RadLex_RID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.radlex.org/RID/#RID35976</RadLex_RID>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000305">
+  <rdfs:subClassOf rdf:resource="#NID000304"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nuclear imaging attribute</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">imaging procedure property</Parent_class_name>
+  <RadLex_RID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.radlex.org/RID/#RID10934</RadLex_RID>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000306">
+  <rdfs:subClassOf rdf:resource="#NID000305"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nuclear detector property</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nuclear imaging attribute</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000307">
+  <rdfs:subClassOf rdf:resource="#NID000306"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nuclear detector material</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nuclear detector property</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000308">
+  <rdfs:subClassOf rdf:resource="#NID000307"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nuclear solid state detector material</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nuclear detector material</Parent_class_name>
+  <RadLex_RID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.radlex.org/RID/#RID10971</RadLex_RID>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000309">
+  <rdfs:subClassOf rdf:resource="#NID000307"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cadmium zinc telluride</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nuclear detector material</Parent_class_name>
+  <RadLex_RID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.radlex.org/RID/#RID10973</RadLex_RID>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000310">
+  <rdfs:subClassOf rdf:resource="#NID000307"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cadmium telluride</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nuclear detector material</Parent_class_name>
+  <RadLex_RID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.radlex.org/RID/#RID10972</RadLex_RID>
+  <UMLS_CUI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0054418</UMLS_CUI>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000311">
+  <rdfs:subClassOf rdf:resource="#NID000307"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cadmium iodide</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nuclear detector material</Parent_class_name>
+  <RadLex_RID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.radlex.org/RID/#RID10975</RadLex_RID>
+  <UMLS_CUI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0527076</UMLS_CUI>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000312">
+  <rdfs:subClassOf rdf:resource="#NID000307"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nuclear crystal detector material</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nuclear detector material</Parent_class_name>
+  <RadLex_RID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.radlex.org/RID/#RID10994</RadLex_RID>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000313">
+  <rdfs:subClassOf rdf:resource="#NID000307"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BGO</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nuclear detector material</Parent_class_name>
+  <RadLex_RID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.radlex.org/RID/#RID10995</RadLex_RID>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000314">
+  <rdfs:subClassOf rdf:resource="#NID000307"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LSO</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nuclear detector material</Parent_class_name>
+  <RadLex_RID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.radlex.org/RID/#RID10997</RadLex_RID>
+  <UMLS_CUI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0023376</UMLS_CUI>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000315">
+  <rdfs:subClassOf rdf:resource="#NID000307"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LBS</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nuclear detector material</Parent_class_name>
+  <UMLS_CUI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0439219</UMLS_CUI>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000316">
+  <rdfs:subClassOf rdf:resource="#NID000307"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LYSO</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nuclear detector material</Parent_class_name>
+  <RadLex_RID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.radlex.org/RID/#RID10999</RadLex_RID>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000317">
+  <rdfs:subClassOf rdf:resource="#NID000307"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nai(tl)</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nuclear detector material</Parent_class_name>
+  <UMLS_CUI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C1311702</UMLS_CUI>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000318">
+  <rdfs:subClassOf rdf:resource="#NID000307"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GSO</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nuclear detector material</Parent_class_name>
+  <RadLex_RID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.radlex.org/RID/#RID11001</RadLex_RID>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000319">
+  <rdfs:subClassOf rdf:resource="#NID000306"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nuclear detector type</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nuclear detector property</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000320">
+  <rdfs:subClassOf rdf:resource="#NID000319"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">analogue nuclear detector</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nuclear detector type</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000321">
+  <rdfs:subClassOf rdf:resource="#NID000319"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">photomultiplier tube detector</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nuclear detector type</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000322">
+  <rdfs:subClassOf rdf:resource="#NID000319"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">digital nuclear detector</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nuclear detector type</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000323">
+  <rdfs:subClassOf rdf:resource="#NID000319"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">silicon photomultiplier detector</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nuclear detector type</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000324">
+  <rdfs:subClassOf rdf:resource="#NID000319"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">avalanche photodiode detector</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nuclear detector type</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000325">
+  <rdfs:subClassOf rdf:resource="#NID000305"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nuclear collimator property</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nuclear imaging attribute</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000326">
+  <rdfs:subClassOf rdf:resource="#NID000325"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nuclear collimator geometry</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nuclear collimator property</Parent_class_name>
+  <RadLex_RID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.radlex.org/RID/#RID10942</RadLex_RID>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000327">
+  <rdfs:subClassOf rdf:resource="#NID000326"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">parallel hole collimator</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nuclear collimator geometry</Parent_class_name>
+  <RadLex_RID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.radlex.org/RID/#RID10943</RadLex_RID>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000328">
+  <rdfs:subClassOf rdf:resource="#NID000326"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">converging collimator</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nuclear collimator geometry</Parent_class_name>
+  <RadLex_RID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.radlex.org/RID/#RID10955</RadLex_RID>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000329">
+  <rdfs:subClassOf rdf:resource="#NID000326"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">diverging collimator</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nuclear collimator geometry</Parent_class_name>
+  <RadLex_RID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.radlex.org/RID/#RID10954</RadLex_RID>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000330">
+  <rdfs:subClassOf rdf:resource="#NID000326"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pinhole collimator</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nuclear collimator geometry</Parent_class_name>
+  <RadLex_RID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.radlex.org/RID/#RID10936</RadLex_RID>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000331">
+  <rdfs:subClassOf rdf:resource="#NID000326"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multi-pinhole collimator</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nuclear collimator geometry</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000332">
+  <rdfs:subClassOf rdf:resource="#NID000305"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nuclear medicine scanner property</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nuclear imaging attribute</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000333">
+  <rdfs:subClassOf rdf:resource="#NID000332"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nuclear medicine scanner geometry</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nuclear medicine scanner property</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000334">
+  <rdfs:subClassOf rdf:resource="#NID000333"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ring</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nuclear medicine scanner geometry</Parent_class_name>
+  <NCI_Thesaurus_Code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#c192577</NCI_Thesaurus_Code>
+  <UMLS_CUI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C1260969</UMLS_CUI>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000335">
+  <rdfs:subClassOf rdf:resource="#NID000333"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">partial ring</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nuclear medicine scanner geometry</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000336">
+  <rdfs:subClassOf rdf:resource="#NID000333"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dual-head</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nuclear medicine scanner geometry</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000337">
+  <rdfs:subClassOf rdf:resource="#NID000333"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">single-head</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nuclear medicine scanner geometry</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000338">
+  <rdfs:subClassOf rdf:resource="#NID000333"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multi-head</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nuclear medicine scanner geometry</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000339">
+  <rdfs:subClassOf rdf:resource="#NID000305"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2-dimensional imaging</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nuclear imaging attribute</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000340">
+  <rdfs:subClassOf rdf:resource="#NID000305"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3-dimensional imaging</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nuclear imaging attribute</Parent_class_name>
+  <NCI_Thesaurus_Code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#c18485</NCI_Thesaurus_Code>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000341">
+  <rdfs:subClassOf rdf:resource="#NID000305"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">planar imaging</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nuclear imaging attribute</Parent_class_name>
+  <NCI_Thesaurus_Code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#c94954</NCI_Thesaurus_Code>
+  <UMLS_CUI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C2986801</UMLS_CUI>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000342">
+  <rdfs:subClassOf rdf:resource="#NID000304"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cross-sectional procedure attribute</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">imaging procedure property</Parent_class_name>
+  <RadLex_RID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.radlex.org/RID/#RID10555</RadLex_RID>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000343">
+  <rdfs:subClassOf rdf:resource="#NID000342"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nuclear medicine procedure attribute</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cross-sectional procedure attribute</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000344">
+  <rdfs:subClassOf rdf:resource="#NID000343"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acquisition duration</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nuclear medicine procedure attribute</Parent_class_name>
+  <RadLex_RID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.radlex.org/RID/#RID12356</RadLex_RID>
+  <NCI_Thesaurus_Code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#c69269</NCI_Thesaurus_Code>
+  <UMLS_CUI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C2347173</UMLS_CUI>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000345">
+  <rdfs:subClassOf rdf:resource="#NID000343"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">injected radioactivity</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nuclear medicine procedure attribute</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000346">
+  <rdfs:subClassOf rdf:resource="#NID000001"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">radlex descriptor</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RadLex entity</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000347">
+  <rdfs:subClassOf rdf:resource="#NID000346"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">imaging procedure descriptor</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">radlex descriptor</Parent_class_name>
+  <RadLex_RID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.radlex.org/RID/#RID7480</RadLex_RID>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000348">
+  <rdfs:subClassOf rdf:resource="#NID000347"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">route of administration</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">imaging procedure descriptor</Parent_class_name>
+  <RadLex_RID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.radlex.org/RID/#RID11087</RadLex_RID>
+  <NCI_Thesaurus_Code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#c38114</NCI_Thesaurus_Code>
+  <UMLS_CUI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0013153</UMLS_CUI>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000349">
+  <rdfs:subClassOf rdf:resource="#NID000348"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">injection</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">route of administration</Parent_class_name>
+  <RadLex_RID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.radlex.org/RID/#RID28842</RadLex_RID>
+  <NCI_Thesaurus_Code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#c122632</NCI_Thesaurus_Code>
+  <UMLS_CUI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C1272883</UMLS_CUI>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000350">
+  <rdfs:subClassOf rdf:resource="#NID000349"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">radiopharmaceutical injection</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">injection</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000351">
+  <rdfs:subClassOf rdf:resource="#NID000001"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">radiation oncology functional concept</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RadLex entity</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000352">
+  <rdfs:subClassOf rdf:resource="#NID000351"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">absorbed radiation dose</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">radiation oncology functional concept</Parent_class_name>
+  <NCI_Thesaurus_Code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#c95181</NCI_Thesaurus_Code>
+  <UMLS_CUI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C5441667</UMLS_CUI>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000353">
+  <rdfs:subClassOf rdf:resource="#NID000351"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">radiation dose concepts</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">radiation oncology functional concept</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000354">
+  <rdfs:subClassOf rdf:resource="#NID000353"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">prescribed radiation dose</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">radiation dose concepts</Parent_class_name>
+  <UMLS_CUI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0454220</UMLS_CUI>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000355">
+  <rdfs:subClassOf rdf:resource="#NID000353"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">equivalent 2gy dose</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">radiation dose concepts</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000356">
+  <rdfs:subClassOf rdf:resource="#NID000353"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">maximum tolerated activity</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">radiation dose concepts</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000357">
+  <rdfs:subClassOf rdf:resource="#NID000353"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">maximum tolerated dose</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">radiation dose concepts</Parent_class_name>
+  <NCI_Thesaurus_Code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#c94489</NCI_Thesaurus_Code>
+  <UMLS_CUI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0752079</UMLS_CUI>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000358">
+  <rdfs:subClassOf rdf:resource="#NID000353"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dose contraints</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">radiation dose concepts</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000359">
+  <rdfs:subClassOf rdf:resource="#NID000351"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">radiation dose description</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">radiation oncology functional concept</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000360">
+  <rdfs:subClassOf rdf:resource="#NID000359"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">radiation dose from dose volume histogram</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">radiation dose description</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000361">
+  <rdfs:subClassOf rdf:resource="#NID000360"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mean dose</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">radiation dose from dose volume histogram</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000362">
+  <rdfs:subClassOf rdf:resource="#NID000360"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">max dose</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">radiation dose from dose volume histogram</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000363">
+  <rdfs:subClassOf rdf:resource="#NID000360"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D95</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">radiation dose from dose volume histogram</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000364">
+  <rdfs:subClassOf rdf:resource="#NID000001"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">radiopharmaceutical functional concept</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RadLex entity</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000365">
+  <rdfs:subClassOf rdf:resource="#NID000364"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">radiopharmaceutical clearance</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">radiopharmaceutical functional concept</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000366">
+  <rdfs:subClassOf rdf:resource="#NID000365"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">half-life</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">radiopharmaceutical clearance</Parent_class_name>
+  <NCI_Thesaurus_Code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#c70916</NCI_Thesaurus_Code>
+  <UMLS_CUI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0018517</UMLS_CUI>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000367">
+  <rdfs:subClassOf rdf:resource="#NID000366"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">physical half-life</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">half-life</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000368">
+  <rdfs:subClassOf rdf:resource="#NID000366"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">biological half-life</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">half-life</Parent_class_name>
+  <NCI_Thesaurus_Code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#c94856</NCI_Thesaurus_Code>
+  <UMLS_CUI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C2986719</UMLS_CUI>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000369">
+  <rdfs:subClassOf rdf:resource="#NID000366"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">effective half-life</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">half-life</Parent_class_name>
+  <NCI_Thesaurus_Code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#c95007</NCI_Thesaurus_Code>
+  <UMLS_CUI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C2986842</UMLS_CUI>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000370">
+  <rdfs:subClassOf rdf:resource="#NID000365"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">whole-body retention</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">radiopharmaceutical clearance</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000371">
+  <rdfs:subClassOf rdf:resource="#NID000365"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">residence time</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">radiopharmaceutical clearance</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000372">
+  <rdfs:subClassOf rdf:resource="#NID000365"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">biological clearance</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">radiopharmaceutical clearance</Parent_class_name>
+  <NCI_Thesaurus_Code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#c94992</NCI_Thesaurus_Code>
+  <UMLS_CUI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C2986829</UMLS_CUI>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000373">
+  <rdfs:subClassOf rdf:resource="#NID000364"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">radiopharmaceutical biodistribution</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">radiopharmaceutical functional concept</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000376">
+  <rdfs:subClassOf rdf:resource="#NID000001"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">image processing attribute</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RadLex entity</Parent_class_name>
+  <RadLex_RID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.radlex.org/RID/#RID11221</RadLex_RID>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000377">
+  <rdfs:subClassOf rdf:resource="#NID000376"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">attenuation correction method</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">image processing attribute</Parent_class_name>
+  <RadLex_RID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.radlex.org/RID/#RID29032</RadLex_RID>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000378">
+  <rdfs:subClassOf rdf:resource="#NID000377"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">calculated attenuation correction</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">attenuation correction method</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000379">
+  <rdfs:subClassOf rdf:resource="#NID000378"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">model-based attenuation correction</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">calculated attenuation correction</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000380">
+  <rdfs:subClassOf rdf:resource="#NID000378"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">artificial intelligence-based attenuation correction</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">calculated attenuation correction</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000381">
+  <rdfs:subClassOf rdf:resource="#NID000377"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">measured attenuation correction</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">attenuation correction method</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000382">
+  <rdfs:subClassOf rdf:resource="#NID000381"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CT-measured attenuation correction</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">measured attenuation correction</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000383">
+  <rdfs:subClassOf rdf:resource="#NID000381"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">transmission-measured attenuation correction</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">measured attenuation correction</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000384">
+  <rdfs:subClassOf rdf:resource="#NID000376"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scatter correction method</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">image processing attribute</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000385">
+  <rdfs:subClassOf rdf:resource="#NID000384"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SPECT scatter correction method</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scatter correction method</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000386">
+  <rdfs:subClassOf rdf:resource="#NID000385"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dual energy window scatter correction</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SPECT scatter correction method</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000387">
+  <rdfs:subClassOf rdf:resource="#NID000385"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">triple energy window scatter correction</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SPECT scatter correction method</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000388">
+  <rdfs:subClassOf rdf:resource="#NID000384"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">model-based scatter correction</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scatter correction method</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000389">
+  <rdfs:subClassOf rdf:resource="#NID000384"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">monte carlo scatter correction</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scatter correction method</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000390">
+  <rdfs:subClassOf rdf:resource="#NID000384"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">artificial intelligence-based scatter correction</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scatter correction method</Parent_class_name>
+</owl:Class>
+
+<owl:Class rdf:about="#NID000391">
+  <rdfs:subClassOf rdf:resource="#NID000001"/>
+  <Preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">process</Preferred_name>
+  <Parent_class_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RadLex entity</Parent_class_name>
+  <RadLex_RID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.radlex.org/RID/#RID39128</RadLex_RID>
+  <NCI_Thesaurus_Code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#c133285</NCI_Thesaurus_Code>
+  <UMLS_CUI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C1522240</UMLS_CUI>
+</owl:Class>
+
+
+</rdf:RDF>

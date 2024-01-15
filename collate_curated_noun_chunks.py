@@ -51,7 +51,7 @@ def is_in_umls(string):
         return results[0]['ui']
 
 
-
+#main
 
 directory_path = '/mnt/tjb129/Bradshaw2/Tyler/nuclex/'
 filename = 'noun_chunks_to_add_combined_20230811.xlsx'

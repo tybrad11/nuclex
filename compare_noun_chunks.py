@@ -1,5 +1,9 @@
 import pandas as pd
 
+"""
+compare different noun chunk counts from different journal types, determine if they are in radlex already
+must have radlex downloaded (separate synonyms)
+"""
 
 #set read paths
 path_radiology = '/mnt/tjb129/Bradshaw2/Tyler/nuclex/nuc_med_articles/from_pmc_non_nucmed/noun_counts_trimmed.csv'

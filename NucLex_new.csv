@@ -1,0 +1,393 @@
+NucLex_NID,Preferred_name,Parent_class_id,Parent_class_name,RadLex_RID,NCI_Thesaurus_Code,UMLS_CUI
+NID000001,RadLex entity,,owl:Thing,http://www.radlex.org/RID/#RID1,,
+NID000002,radiopharmaceutical therapy,NID000001,RadLex entity,,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#c192439,C2094663
+NID000003,prostate-specific membrane antigen radiopharmaceutical therapy,NID000002,radiopharmaceutical therapy,,,
+NID000004,DOTATATE radiopharmaceutical therapy,NID000002,radiopharmaceutical therapy,,,
+NID000005,radioactive iodine therapy,NID000002,radiopharmaceutical therapy,,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#c157968,C0203610
+NID000006,radioactive iodine therapy for thyroid cancer,NID000005,radioactive iodine therapy,,,
+NID000007,radioactive iodine therapy for hyperthyroidism,NID000005,radioactive iodine therapy,,,
+NID000008,radioimmunoconjugate therapy,NID000002,radiopharmaceutical therapy,,,
+NID000009,targeted alpha therapy,NID000002,radiopharmaceutical therapy,,,
+NID000010,neutron capture therapy,NID000002,radiopharmaceutical therapy,,,C0162675
+NID000011,theranostics,NID000002,radiopharmaceutical therapy,,,C4046052
+NID000012,treatment planning,NID000001,RadLex entity,http://www.radlex.org/RID/#RID45652,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#c162700,C5202876
+NID000013,radiopharmaceutical treatment planning,NID000012,treatment planning,,,
+NID000014,radiation dosimetry,NID000013,radiopharmaceutical treatment planning,,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#c15312,C0034603
+NID000015,radiation dosimetry calculation method,NID000014,radiation dosimetry,,,
+NID000016,monte carlo radiation dosimetry,NID000015,radiation dosimetry calculation method,,,
+NID000017,voxel-based radiation dosimetry,NID000015,radiation dosimetry calculation method,,,
+NID000018,region-of-interest-based radiation dosimetry,NID000015,radiation dosimetry calculation method,,,
+NID000019,organ-based radiation dosimetry,NID000015,radiation dosimetry calculation method,,,
+NID000020,kernel-based radiation dosimetry,NID000015,radiation dosimetry calculation method,,,
+NID000021,medical internal radiation dosimetry (MIRD) method,NID000015,radiation dosimetry calculation method,,,
+NID000022,radiation dosimetry imaging,NID000014,radiation dosimetry,,,
+NID000023,pre-therapy dosimetry imaging,NID000022,radiation dosimetry imaging,,,
+NID000024,pre-therapy diagnostic dosimetry imaging,NID000023,pre-therapy dosimetry imaging,,,
+NID000025,pre-therapy non-diagnostic dosimetry imaging,NID000023,pre-therapy dosimetry imaging,,,
+NID000026,post-injection dosimetry imaging,NID000022,radiation dosimetry imaging,,,
+NID000027,multi-time point quantitative SPECT imaging,NID000022,radiation dosimetry imaging,,,
+NID000028,mutli-time point quantitative PET imaging,NID000022,radiation dosimetry imaging,,,
+NID000029,multi-time point quantitative planar imaging,NID000022,radiation dosimetry imaging,,,
+NID000030,theranostic imaging,NID000022,radiation dosimetry imaging,,,
+NID000030,theranostic imaging,NID000022,radiation dosimetry imaging,,,
+NID000032,radiopharmaceutical property,NID000001,RadLex entity,,,
+NID000033,radiopharmaceutical manufacturer,NID000032,radiopharmaceutical property,,,
+NID000034,radiopharmaceutical quality property,NID000032,radiopharmaceutical property,,,
+NID000035,specific activity,NID000034,radiopharmaceutical quality property,,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#c111699,C3828414
+NID000036,radiochemical purity,NID000034,radiopharmaceutical quality property,,,
+NID000037,radiopharmaceutical injection property,NID000032,radiopharmaceutical property,,,
+NID000038,injection volume,NID000037,radiopharmaceutical injection property,,,C0941280
+NID000039,injection date,NID000037,radiopharmaceutical injection property,,,
+NID000040,injection time,NID000037,radiopharmaceutical injection property,,,
+NID000041,rate of injection,NID000037,radiopharmaceutical injection property,,,
+NID000042,geometry of injection (need better name),NID000037,radiopharmaceutical injection property,,,
+NID000043,radiopharmaceutical,NID000001,RadLex entity,http://www.radlex.org/RID/#RID11692,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#c148548,C4743559
+NID000044,diagnostic radiopharmaceutical,NID000043,radiopharmaceutical,,,
+NID000045,positron emission tomography radiopharmaceutical,NID000044,diagnostic radiopharmaceutical,,,
+NID000046,C-11 PBR28,NID000045,positron emission tomography radiopharmaceutical,,,
+NID000047,F-18 BS224,NID000045,positron emission tomography radiopharmaceutical,,,
+NID000048,F-18 dcfpyl,NID000045,positron emission tomography radiopharmaceutical,,,
+NID000049,F-18 DPA-714,NID000045,positron emission tomography radiopharmaceutical,,,
+NID000050,F-18 fluorodeoxyglucose,NID000045,positron emission tomography radiopharmaceutical,,,
+NID000051,F-18 FEPPA,NID000045,positron emission tomography radiopharmaceutical,,,
+NID000052,F-18 flortaucipir,NID000045,positron emission tomography radiopharmaceutical,,,
+NID000053,F-18 flutemetamol,NID000045,positron emission tomography radiopharmaceutical,,,
+NID000054,F-18 fluoromisonidazole,NID000045,positron emission tomography radiopharmaceutical,,,
+NID000055,F-18 MC225,NID000045,positron emission tomography radiopharmaceutical,,,
+NID000056,F-18 prostate-specific membrane antigen-1007,NID000045,positron emission tomography radiopharmaceutical,,,
+NID000057,Ga-68 DFO-B,NID000045,positron emission tomography radiopharmaceutical,,,
+NID000058,Ga-68 DOTATATE,NID000045,positron emission tomography radiopharmaceutical,,,
+NID000059,Ga-68 prostate-specific membrane antigen-11,NID000045,positron emission tomography radiopharmaceutical,,,
+NID000060,C-11 UCB-J,NID000045,positron emission tomography radiopharmaceutical,,,
+NID000061,F-18 bisphenol-a,NID000045,positron emission tomography radiopharmaceutical,,,
+NID000062,F-18 dcfpyl,NID000045,positron emission tomography radiopharmaceutical,,,
+NID000063,F-18 deoxy-thiamine,NID000045,positron emission tomography radiopharmaceutical,,,
+NID000064,F-18 fluorothymidine,NID000045,positron emission tomography radiopharmaceutical,,,
+NID000065,F-18 fluciclovine,NID000045,positron emission tomography radiopharmaceutical,,,
+NID000066,F-18 FPP-RGD2,NID000045,positron emission tomography radiopharmaceutical,,,
+NID000067,F-18 GE-180,NID000045,positron emission tomography radiopharmaceutical,,,
+NID000068,F-18 ICMT-11,NID000045,positron emission tomography radiopharmaceutical,,,
+NID000069,F-18 sodium fluoride,NID000045,positron emission tomography radiopharmaceutical,,,
+NID000070,F-18 rhpsma-7.3,NID000045,positron emission tomography radiopharmaceutical,,,
+NID000071,Cu-64 Cu-ATSM,NID000045,positron emission tomography radiopharmaceutical,,,
+NID000072,Ga-68 DOTATOC,NID000045,positron emission tomography radiopharmaceutical,,,C3640098
+NID000073,Ga-68 fibroblast activation protein inhibitor,NID000045,positron emission tomography radiopharmaceutical,,,
+NID000074,Ga-68 NODAGA-RGD,NID000045,positron emission tomography radiopharmaceutical,,,
+NID000075,C-11 PK11195,NID000045,positron emission tomography radiopharmaceutical,,,
+NID000076,F-18 FET,NID000045,positron emission tomography radiopharmaceutical,,,C1831729
+NID000077,F-18 fluoromisonidazole,NID000045,positron emission tomography radiopharmaceutical,,,
+NID000078,Ga-68 fibroblast activation protein-2286,NID000045,positron emission tomography radiopharmaceutical,,,
+NID000079,see list,NID000045,positron emission tomography radiopharmaceutical,,,
+NID000080,single-photon emission computed tomography radiopharmaceutical,NID000044,diagnostic radiopharmaceutical,,,
+NID000081,Tc-99m macroaggregated albumin,NID000080,single-photon emission computed tomography radiopharmaceutical,http://www.radlex.org/RID/#RID11737,,
+NID000082,I-123 ioflupane,NID000080,single-photon emission computed tomography radiopharmaceutical,http://www.radlex.org/RID/#RID49616,,
+NID000083,I-123 metaiodobenzylguanidine,NID000080,single-photon emission computed tomography radiopharmaceutical,http://www.radlex.org/RID/#RID50391,,
+NID000084,see list,NID000080,single-photon emission computed tomography radiopharmaceutical,,,
+NID000085,therapeutic radiopharmaceutical,NID000043,radiopharmaceutical,,,C0358509
+NID000086,Lu-177 prostate-specific membrane antigen,NID000085,therapeutic radiopharmaceutical,,,
+NID000087,Lu-177 prostate-specific membrane antigen-617,NID000086,Lu-177 prostate-specific membrane antigen,,,
+NID000088,Ac-225 PSMA,NID000085,therapeutic radiopharmaceutical,,,
+NID000089,Ac-225 PSMA-617,NID000088,Ac-225 PSMA,,,
+NID000090,Lu-177-DOTATATE,NID000085,therapeutic radiopharmaceutical,,,
+NID000091,I-131 sodium iodide,NID000085,therapeutic radiopharmaceutical,,,C0304982
+NID000092,I-131 tositumomab,NID000085,therapeutic radiopharmaceutical,http://www.radlex.org/RID/#RID45773,,
+NID000093,I-131 tenatumomab,NID000085,therapeutic radiopharmaceutical,,,
+NID000094,I-131 iobenguane,NID000085,therapeutic radiopharmaceutical,,,
+NID000095,Sm-153 lexidronam,NID000085,therapeutic radiopharmaceutical,,,
+NID000096, Sr-89 chloride,NID000085,therapeutic radiopharmaceutical,,,
+NID000097,Ra-223 racl2,NID000085,therapeutic radiopharmaceutical,,,
+NID000098,alpha-emitting radiopharmaceutical,NID000085,therapeutic radiopharmaceutical,,,
+NID000099,beta-emitting radiopharmacuetical,NID000085,therapeutic radiopharmaceutical,,,
+NID000100,I-131 MIBG therapy,NID000085,therapeutic radiopharmaceutical,,,
+NID000101,Lu-177 prostate-specific membrane antigen therapy,NID000085,therapeutic radiopharmaceutical,,,
+NID000102,Re-188 liposome,NID000085,therapeutic radiopharmaceutical,,,
+NID000103,At-211 meta-astatobenzylguanidine,NID000085,therapeutic radiopharmaceutical,,,
+NID000104,Ac-225 prostate-specific membrane antigen-617,NID000085,therapeutic radiopharmaceutical,,,
+NID000104,Ac-225 prostate-specific membrane antigen-617,NID000085,therapeutic radiopharmaceutical,,,
+NID000106,non-anatomical substance,NID000001,RadLex entity,http://www.radlex.org/RID/#RID7479,,
+NID000107,radioisotope,NID000106,non-anatomical substance,http://www.radlex.org/RID/#RID11695,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#c799,C0034595
+NID000108,In-111,NID000107,radioisotope,http://www.radlex.org/RID/#RID45775,,C0303403
+NID000109,C-11,NID000107,radioisotope,,,
+NID000110,I-123,NID000107,radioisotope,http://www.radlex.org/RID/#RID43384,,C3495673
+NID000111,I-124,NID000107,radioisotope,,,C0303024
+NID000112,I-131,NID000107,radioisotope,http://www.radlex.org/RID/#RID43386,,C0303029
+NID000113,Tb-161,NID000107,radioisotope,,,
+NID000114,Lu-177,NID000107,radioisotope,,,C2959378
+NID000115,F-18,NID000107,radioisotope,,,
+NID000116,Tl-201,NID000107,radioisotope,,,C1955147
+NID000117,At-211,NID000107,radioisotope,,,
+NID000118,Pb-212,NID000107,radioisotope,,,
+NID000119,Bi-213,NID000107,radioisotope,,,
+NID000120,Rn-219,NID000107,radioisotope,,,
+NID000121,Ra-223,NID000107,radioisotope,,,C0303282
+NID000122,Ac-225,NID000107,radioisotope,,,
+NID000123,Sc-44,NID000107,radioisotope,,,
+NID000124,Cu-64,NID000107,radioisotope,,,
+NID000125,Ga-68,NID000107,radioisotope,,,
+NID000126,Rb-82,NID000107,radioisotope,,,
+NID000127,Zr-89,NID000107,radioisotope,,,
+NID000128,Y-90,NID000107,radioisotope,,,C0303596
+NID000129,Tc-99m,NID000107,radioisotope,http://www.radlex.org/RID/#RID50051,,C0303611
+NID000130,subatomic particle,NID000106,non-anatomical substance,,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#c40429,C0013878
+NID000131,photon,NID000130,subatomic particle,,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#c88112,C0086805
+NID000132,x-ray,NID000131,photon,,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#c17262,C0043299
+NID000133,characteristic x-ray,NID000132,x-ray,,,
+NID000134,gamma ray,NID000131,photon,,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#c44386,C0017011
+NID000135,annihilation gamma ray,NID000134,gamma ray,,,
+NID000136,neutron,NID000130,subatomic particle,,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#c40432,C0027946
+NID000137,positron,NID000130,subatomic particle,,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#c94957,C0032744
+NID000138,alpha particle,NID000130,subatomic particle,,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#c16279,C0002217
+NID000139,electron,NID000130,subatomic particle,,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#c40428,C0013852
+NID000140,auger electron,NID000139,electron,,,
+NID000141,proton,NID000130,subatomic particle,,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#c17024,C0436226
+NID000141,proton,NID000130,subatomic particle,,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#c17024,C0436226
+NID000141,proton,NID000130,subatomic particle,,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#c17024,C0436226
+NID000144,imaging quantification volumes,NID000001,RadLex entity,,,
+NID000145,kidney quantification volume,NID000144,imaging quantification volumes,,,
+NID000146,kidney suborgan quantification volumes,NID000145,kidney quantification volume,,,
+NID000147,kidney 1 (cortex + medulla + pelvis),NID000146,kidney suborgan quantification volumes,,,
+NID000148,kidney 2  (cortex + medulla),NID000146,kidney suborgan quantification volumes,,,
+NID000149,kidney 3 (cortex),NID000146,kidney suborgan quantification volumes,,,
+NID000150,right kidney quantification volume,NID000145,kidney quantification volume,,,
+NID000151,left kidney quantification volume,NID000145,kidney quantification volume,,,
+NID000152,bone marrow quantification volume,NID000144,imaging quantification volumes,,,
+NID000152,bone marrow quantification volume,NID000144,imaging quantification volumes,,,
+NID000152,bone marrow quantification volume,NID000144,imaging quantification volumes,,,
+NID000155,measurement procedure,NID000001,RadLex entity,http://www.radlex.org/RID/#RID48094,,C0242485
+NID000155,measurement procedure,NID000001,RadLex entity,http://www.radlex.org/RID/#RID48094,,C0242485
+NID000157,image processing method,NID000001,RadLex entity,,,
+NID000158,segmentation method,NID000157,image processing method,,,
+NID000159,manual segmentation,NID000158,segmentation method,,,
+NID000160,human non-expert segmentation,NID000159,manual segmentation,,,
+NID000161,human expert segmentation,NID000159,manual segmentation,,,
+NID000162,semi-automatic segmentation,NID000158,segmentation method,,,
+NID000163,threshold segmentation,NID000162,semi-automatic segmentation,,,
+NID000164,relative threshold segmentation,NID000163,threshold segmentation,,,
+NID000165,absolute threshold segmentation,NID000163,threshold segmentation,,,
+NID000166,adaptive threshold segmentation,NID000163,threshold segmentation,,,
+NID000167,automatic segmentation,NID000158,segmentation method,,,
+NID000168,aritificial intelligence segmentation,NID000167,automatic segmentation,,,
+NID000168,aritificial intelligence segmentation,NID000167,automatic segmentation,,,
+NID000170,quantification image,NID000001,RadLex entity,,,
+NID000171,primary quantification image,NID000170,quantification image,,,
+NID000172,ancillary quantification image,NID000170,quantification image,,,
+NID000172,ancillary quantification image,NID000170,quantification image,,,
+NID000174,imaging observation,NID000001,RadLex entity,http://www.radlex.org/RID/#RID5,,
+NID000175,numerical measurement,NID000174,imaging observation,,,
+NID000176,volume-based measurement,NID000175,numerical measurement,,,
+NID000177,metabolic tumor volume,NID000176,volume-based measurement,,,
+NID000178,tumor volume,NID000176,volume-based measurement,,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#c94515,C0475276
+NID000179,total lesion glygolysis,NID000176,volume-based measurement,,,
+NID000180,length-based measurement,NID000175,numerical measurement,,,
+NID000181,concentration-based measurement,NID000175,numerical measurement,,,
+NID000182,bequerel per mililiter,NID000181,concentration-based measurement,,,
+NID000183,standardized uptake value measurement,NID000181,concentration-based measurement,,,
+NID000184,mean standardized uptake value,NID000183,standardized uptake value measurement,,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#c181544,C5557136
+NID000185,maximum standardized uptake value,NID000183,standardized uptake value measurement,,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#c95012,C2986846
+NID000186,peak standardized uptake value,NID000183,standardized uptake value measurement,,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#c95013,C2986847
+NID000187,kinetic measurement,NID000175,numerical measurement,,,
+NID000188,perfusion,NID000187,kinetic measurement,,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#c150246,C0574032
+NID000189,residence time,NID000187,kinetic measurement,,,
+NID000190,time activity curve,NID000187,kinetic measurement,,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#c95014,C2986848
+NID000191,arterial input function,NID000187,kinetic measurement,,,
+NID000192,heterogeneity measurement,NID000175,numerical measurement,,,
+NID000193,shape measurement,NID000175,numerical measurement,,,
+NID000194,binding affinity,NID000175,numerical measurement,,,
+NID000194,binding affinity,NID000175,numerical measurement,,,
+NID000196,assessment,NID000174,imaging observation,http://www.radlex.org/RID/#RID36026,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#c20989,C0870300
+NID000197,visual assessment scale,NID000196,assessment,,,
+NID000198,visual lymphoma assessment scale,NID000197,visual assessment scale,,,
+NID000199,deauville five-point scale,NID000198,visual lymphoma assessment scale,,,
+NID000200,lugano five-point scale,NID000198,visual lymphoma assessment scale,,,
+NID000201,property,NID000001,RadLex entity,http://www.radlex.org/RID/#RID35977,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#c166373,C1264636
+NID000202,measurement unit,NID000201,property,http://www.radlex.org/RID/#RID39160,,
+NID000203,imaging pixel unit,NID000202,measurement unit,,,
+NID000204,activity concentration,NID000203,imaging pixel unit,,,
+NID000205,bequrel per mililiter,NID000204,activity concentration,,,
+NID000206,bequrel per mililiter,NID000204,activity concentration,,,
+NID000207,standardized uptake value,NID000203,imaging pixel unit,,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#c69310,C2348529
+NID000208,standardized uptake value body weight,NID000207,standardized uptake value,,,
+NID000209,standardized uptake value lean body mass,NID000207,standardized uptake value,,,
+NID000210,percent of injected dose per gram of tissue,NID000203,imaging pixel unit,,,
+NID000211,counts,NID000203,imaging pixel unit,,,C0439157
+NID000212,hounsfield unit,NID000202,measurement unit,,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#c94908,C1552985
+NID000213,medical device,NID000001,RadLex entity,http://www.radlex.org/RID/#RID29033,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#c16830,C0025080
+NID000214,activity meter,NID000213,medical device,,,
+NID000215,dose calibrator,NID000214,activity meter,,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#c94887,C2986741
+NID000216,scintillation counter,NID000214,activity meter,,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#c50062,C1710025
+NID000217,well counter,NID000216,scintillation counter,,,
+NID000218,auto gamma counter,NID000217,well counter,,,
+NID000219,multi-well counter,NID000217,well counter,,,
+NID000220,thyroid probe,NID000216,scintillation counter,,,
+NID000221,scanner device,NID000213,medical device,,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#c50158,C1710020
+NID000222,nuclear medicine scanner,NID000221,scanner device,,,
+NID000223,single-modality nuclear medicine scanner,NID000222,nuclear medicine scanner,,,
+NID000224,gamma camera,NID000223,single-modality nuclear medicine scanner,http://www.radlex.org/RID/#RID10965,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#c16600,C0017004
+NID000225,PET scanner,NID000223,single-modality nuclear medicine scanner,,,C0182349
+NID000226,SPECT scanner,NID000223,single-modality nuclear medicine scanner,,,
+NID000227,dual-modality nuclear medicine scanner,NID000222,nuclear medicine scanner,,,
+NID000228,PET/CT scanner,NID000227,dual-modality nuclear medicine scanner,,,
+NID000229,PET/MR scanner,NID000227,dual-modality nuclear medicine scanner,,,
+NID000230,SPECT/CT scanner,NID000227,dual-modality nuclear medicine scanner,,,
+NID000231,dedicated nuclear medicine scanner,NID000222,nuclear medicine scanner,,,
+NID000232,cardiac SPECT scanner,NID000231,dedicated nuclear medicine scanner,,,
+NID000233,cardiac gamma camera,NID000231,dedicated nuclear medicine scanner,,,
+NID000234,brain PET scanner,NID000231,dedicated nuclear medicine scanner,,,
+NID000235,brain PET/CT scanner,NID000231,dedicated nuclear medicine scanner,,,
+NID000236,brain PET/MR scanner,NID000231,dedicated nuclear medicine scanner,,,
+NID000237,brain SPECT scanner,NID000231,dedicated nuclear medicine scanner,,,
+NID000238,brain SPECT/CT scanner,NID000231,dedicated nuclear medicine scanner,,,
+NID000239,breast PET scanner,NID000231,dedicated nuclear medicine scanner,,,
+NID000240,breast PET/CT scanner,NID000231,dedicated nuclear medicine scanner,,,
+NID000241,breast PET/MR scanner,NID000231,dedicated nuclear medicine scanner,,,
+NID000242,preclinical nuclear medicine scanner,NID000222,nuclear medicine scanner,,,
+NID000243,small animal PET/CT scanner,NID000242,preclinical nuclear medicine scanner,,,
+NID000244,small animal PET scanner,NID000242,preclinical nuclear medicine scanner,,,
+NID000245,small animal SPECT/CT scanner,NID000242,preclinical nuclear medicine scanner,,,
+NID000246,small animal SPECT scanner,NID000242,preclinical nuclear medicine scanner,,,
+NID000247,nuclear detector device,NID000213,medical device,,,
+NID000248,analogue detector device,NID000247,nuclear detector device,,,
+NID000249,photomultiplier tube,NID000248,analogue detector device,,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#c50328,C1709530
+NID000250,digital detector device,NID000247,nuclear detector device,,,
+NID000251,silicon photomultiplier,NID000250,digital detector device,,,
+NID000252,avalanch photodiode,NID000250,digital detector device,,,
+NID000252,avalanch photodiode,NID000250,digital detector device,,,
+NID000252,avalanch photodiode,NID000250,digital detector device,,,
+NID000255,nuclaer medicine device calibration method,NID000213,medical device,,,
+NID000256,reference standard quantitative calibration,NID000255,nuclaer medicine device calibration method,,,
+NID000257,primary standard quantitative calibration,NID000256,reference standard quantitative calibration,,,
+NID000258,secondary standard quantitative calibration,NID000256,reference standard quantitative calibration,,,
+NID000259,calibration method property,NID000255,nuclaer medicine device calibration method,,,
+NID000260,source geometry,NID000259,calibration method property,,,
+NID000261,volumetric source,NID000260,source geometry,,,
+NID000262,point source,NID000260,source geometry,,,
+NID000263,planar source,NID000260,source geometry,,,
+NID000264,annulus source,NID000260,source geometry,,,
+NID000265,radiological quality assurance device,NID000213,medical device,,,C3873810
+NID000266,phantom,NID000265,radiological quality assurance device,,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#c170545,C0282611
+NID000267,nuclear medicine phantom,NID000266,phantom,,,C0182238
+NID000268,jaszczak phantom,NID000267,nuclear medicine phantom,,,
+NID000269,RADAR phantom,NID000267,nuclear medicine phantom,,,
+NID000270,NEMA IEC body phantom,NID000267,nuclear medicine phantom,,,
+NID000271,acr-approved phantom,NID000267,nuclear medicine phantom,,,
+NID000271,acr-approved phantom,NID000267,nuclear medicine phantom,,,
+NID000271,acr-approved phantom,NID000267,nuclear medicine phantom,,,
+NID000271,acr-approved phantom,NID000267,nuclear medicine phantom,,,
+NID000271,acr-approved phantom,NID000267,nuclear medicine phantom,,,
+NID000271,acr-approved phantom,NID000267,nuclear medicine phantom,,,
+NID000277,medical device property,NID000001,RadLex entity,,,
+NID000278,scanner device property,NID000277,medical device property,,,
+NID000279,scanner performance property,NID000278,scanner device property,,,
+NID000280,general scanner performance characteristics,NID000279,scanner performance property,,,
+NID000281,spatial resolution,NID000280,general scanner performance characteristics,,,
+NID000282,low contrast resolution,NID000280,general scanner performance characteristics,,,
+NID000283,quantitative accuracy,NID000280,general scanner performance characteristics,,,
+NID000284,nuclear medicine scanner performance characteristics,NID000279,scanner performance property,,,
+NID000285,detection sensitivity,NID000284,nuclear medicine scanner performance characteristics,,,
+NID000286,peak noise-equivalent count rate,NID000284,nuclear medicine scanner performance characteristics,,,
+NID000287,recovery coefficient,NID000284,nuclear medicine scanner performance characteristics,,,
+NID000288,scatter fraction,NID000284,nuclear medicine scanner performance characteristics,,,
+NID000289,dead time,NID000284,nuclear medicine scanner performance characteristics,,,
+NID000290,coincidence timing resolution,NID000284,nuclear medicine scanner performance characteristics,,,
+NID000291,intrinsic spatial resolution,NID000284,nuclear medicine scanner performance characteristics,,,
+NID000292,system spatial resolution,NID000284,nuclear medicine scanner performance characteristics,,,
+NID000293,nuclear medicine scanner property,NID000278,scanner device property,,,
+NID000294,collimator type,NID000293,nuclear medicine scanner property,,,
+NID000295,PET scanner property,NID000278,scanner device property,,,
+NID000296,acquisition field of view,NID000278,scanner device property,http://www.radlex.org/RID/#RID12355,,
+NID000297,axial field of view,NID000296,acquisition field of view,,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#c94863,C2986724
+NID000298,bore size,NID000296,acquisition field of view,,,
+NID000299,transaxial field of view,NID000296,acquisition field of view,,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#c94995,C2986832
+NID000300,device characteristics measurement method,NID000277,medical device property,,,
+NID000300,device characteristics measurement method,NID000277,medical device property,,,
+NID000300,device characteristics measurement method,NID000277,medical device property,,,
+NID000300,device characteristics measurement method,NID000277,medical device property,,,
+NID000304,imaging procedure property,NID000001,RadLex entity,http://www.radlex.org/RID/#RID35976,,
+NID000305,nuclear imaging attribute,NID000304,imaging procedure property,http://www.radlex.org/RID/#RID10934,,
+NID000306,nuclear detector property,NID000305,nuclear imaging attribute,,,
+NID000307,nuclear detector material,NID000306,nuclear detector property,,,
+NID000308,nuclear solid state detector material,NID000307,nuclear detector material,http://www.radlex.org/RID/#RID10971,,
+NID000309,cadmium zinc telluride,NID000307,nuclear detector material,http://www.radlex.org/RID/#RID10973,,
+NID000310,cadmium telluride,NID000307,nuclear detector material,http://www.radlex.org/RID/#RID10972,,C0054418
+NID000311,cadmium iodide,NID000307,nuclear detector material,http://www.radlex.org/RID/#RID10975,,C0527076
+NID000312,nuclear crystal detector material,NID000307,nuclear detector material,http://www.radlex.org/RID/#RID10994,,
+NID000313,BGO,NID000307,nuclear detector material,http://www.radlex.org/RID/#RID10995,,
+NID000314,LSO,NID000307,nuclear detector material,http://www.radlex.org/RID/#RID10997,,C0023376
+NID000315,LBS,NID000307,nuclear detector material,,,C0439219
+NID000316,LYSO,NID000307,nuclear detector material,http://www.radlex.org/RID/#RID10999,,
+NID000317,nai(tl),NID000307,nuclear detector material,,,C1311702
+NID000318,GSO,NID000307,nuclear detector material,http://www.radlex.org/RID/#RID11001,,
+NID000319,nuclear detector type,NID000306,nuclear detector property,,,
+NID000320,analogue nuclear detector,NID000319,nuclear detector type,,,
+NID000321,photomultiplier tube detector,NID000319,nuclear detector type,,,
+NID000322,digital nuclear detector,NID000319,nuclear detector type,,,
+NID000323,silicon photomultiplier detector,NID000319,nuclear detector type,,,
+NID000324,avalanche photodiode detector,NID000319,nuclear detector type,,,
+NID000325,nuclear collimator property,NID000305,nuclear imaging attribute,,,
+NID000326,nuclear collimator geometry,NID000325,nuclear collimator property,http://www.radlex.org/RID/#RID10942,,
+NID000327,parallel hole collimator,NID000326,nuclear collimator geometry,http://www.radlex.org/RID/#RID10943,,
+NID000328,converging collimator,NID000326,nuclear collimator geometry,http://www.radlex.org/RID/#RID10955,,
+NID000329,diverging collimator,NID000326,nuclear collimator geometry,http://www.radlex.org/RID/#RID10954,,
+NID000330,pinhole collimator,NID000326,nuclear collimator geometry,http://www.radlex.org/RID/#RID10936,,
+NID000331,multi-pinhole collimator,NID000326,nuclear collimator geometry,,,
+NID000332,nuclear medicine scanner property,NID000305,nuclear imaging attribute,,,
+NID000333,nuclear medicine scanner geometry,NID000332,nuclear medicine scanner property,,,
+NID000334,ring,NID000333,nuclear medicine scanner geometry,,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#c192577,C1260969
+NID000335,partial ring,NID000333,nuclear medicine scanner geometry,,,
+NID000336,dual-head,NID000333,nuclear medicine scanner geometry,,,
+NID000337,single-head,NID000333,nuclear medicine scanner geometry,,,
+NID000338,multi-head,NID000333,nuclear medicine scanner geometry,,,
+NID000339,2-dimensional imaging,NID000305,nuclear imaging attribute,,,
+NID000340,3-dimensional imaging,NID000305,nuclear imaging attribute,,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#c18485,
+NID000341,planar imaging,NID000305,nuclear imaging attribute,,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#c94954,C2986801
+NID000342,cross-sectional procedure attribute,NID000304,imaging procedure property,http://www.radlex.org/RID/#RID10555,,
+NID000343,nuclear medicine procedure attribute,NID000342,cross-sectional procedure attribute,,,
+NID000344,acquisition duration,NID000343,nuclear medicine procedure attribute,http://www.radlex.org/RID/#RID12356,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#c69269,C2347173
+NID000345,injected radioactivity,NID000343,nuclear medicine procedure attribute,,,
+NID000346,radlex descriptor,NID000001,RadLex entity,,,
+NID000347,imaging procedure descriptor,NID000346,radlex descriptor,http://www.radlex.org/RID/#RID7480,,
+NID000348,route of administration,NID000347,imaging procedure descriptor,http://www.radlex.org/RID/#RID11087,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#c38114,C0013153
+NID000349,injection,NID000348,route of administration,http://www.radlex.org/RID/#RID28842,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#c122632,C1272883
+NID000350,radiopharmaceutical injection,NID000349,injection,,,
+NID000351,radiation oncology functional concept,NID000001,RadLex entity,,,
+NID000352,absorbed radiation dose,NID000351,radiation oncology functional concept,,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#c95181,C5441667
+NID000353,radiation dose concepts,NID000351,radiation oncology functional concept,,,
+NID000354,prescribed radiation dose,NID000353,radiation dose concepts,,,C0454220
+NID000355,equivalent 2gy dose,NID000353,radiation dose concepts,,,
+NID000356,maximum tolerated activity,NID000353,radiation dose concepts,,,
+NID000357,maximum tolerated dose,NID000353,radiation dose concepts,,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#c94489,C0752079
+NID000358,dose contraints,NID000353,radiation dose concepts,,,
+NID000359,radiation dose description,NID000351,radiation oncology functional concept,,,
+NID000360,radiation dose from dose volume histogram,NID000359,radiation dose description,,,
+NID000361,mean dose,NID000360,radiation dose from dose volume histogram,,,
+NID000362,max dose,NID000360,radiation dose from dose volume histogram,,,
+NID000363,D95,NID000360,radiation dose from dose volume histogram,,,
+NID000364,radiopharmaceutical functional concept,NID000001,RadLex entity,,,
+NID000365,radiopharmaceutical clearance,NID000364,radiopharmaceutical functional concept,,,
+NID000366,half-life,NID000365,radiopharmaceutical clearance,,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#c70916,C0018517
+NID000367,physical half-life,NID000366,half-life,,,
+NID000368,biological half-life,NID000366,half-life,,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#c94856,C2986719
+NID000369,effective half-life,NID000366,half-life,,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#c95007,C2986842
+NID000370,whole-body retention,NID000365,radiopharmaceutical clearance,,,
+NID000371,residence time,NID000365,radiopharmaceutical clearance,,,
+NID000372,biological clearance,NID000365,radiopharmaceutical clearance,,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#c94992,C2986829
+NID000373,radiopharmaceutical biodistribution,NID000364,radiopharmaceutical functional concept,,,
+NID000373,radiopharmaceutical biodistribution,NID000364,radiopharmaceutical functional concept,,,
+NID000373,radiopharmaceutical biodistribution,NID000364,radiopharmaceutical functional concept,,,
+NID000376,image processing attribute,NID000001,RadLex entity,http://www.radlex.org/RID/#RID11221,,
+NID000377,attenuation correction method,NID000376,image processing attribute,http://www.radlex.org/RID/#RID29032,,
+NID000378,calculated attenuation correction,NID000377,attenuation correction method,,,
+NID000379,model-based attenuation correction,NID000378,calculated attenuation correction,,,
+NID000380,artificial intelligence-based attenuation correction,NID000378,calculated attenuation correction,,,
+NID000381,measured attenuation correction,NID000377,attenuation correction method,,,
+NID000382,CT-measured attenuation correction,NID000381,measured attenuation correction,,,
+NID000383,transmission-measured attenuation correction,NID000381,measured attenuation correction,,,
+NID000384,scatter correction method,NID000376,image processing attribute,,,
+NID000385,SPECT scatter correction method,NID000384,scatter correction method,,,
+NID000386,dual energy window scatter correction,NID000385,SPECT scatter correction method,,,
+NID000387,triple energy window scatter correction,NID000385,SPECT scatter correction method,,,
+NID000388,model-based scatter correction,NID000384,scatter correction method,,,
+NID000389,monte carlo scatter correction,NID000384,scatter correction method,,,
+NID000390,artificial intelligence-based scatter correction,NID000384,scatter correction method,,,
+NID000391,process,NID000001,RadLex entity,http://www.radlex.org/RID/#RID39128,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#c133285,C1522240
+NID000392,0,NID000392,http://ncicb.nci.nih.gov/xml/owl/evs/thesaurus.owl#c71688,,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#c105720,C3842591
