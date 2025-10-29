@@ -1,32 +1,6 @@
-import pandas as pd
 import os
+import pandas as pd
 import requests
-
-# preprocess NCI thesaurus
-def preprocess_nci_thesaurus():
-    path_to_thesaurus_text_file = os.path.join(r"/mnt/tjb129/Bradshaw2/Tyler/nuclex/nci_thesaurus_owl", "Thesaurus.txt")
-    path_save = os.path.join(r"/mnt/tjb129/Bradshaw2/Tyler/nuclex/nci_thesaurus_owl", "Thesaurus_curated.csv")
-
-    df_nci = pd.read_csv(path_to_thesaurus_text_file, sep="\t")
-
-    cnames = ["id", "url", "C3", "Synonym0","definition", "C6","C7", "C8","C9"]
-    df_nci.columns = cnames
-
-    to_keep = ["id","definition", "Synonym0"]
-    df_filtered = df_nci[to_keep]
-    df_lower = df_filtered.applymap(lambda x: x.lower() if isinstance(x, str) else x)
-
-    split_df = df_lower["Synonym0"].str.split("|", expand=True)
-    new_column_names = [f"Synonym{i+1}" for i in range(len(split_df.columns))]
-    split_df.columns = new_column_names
-    split_df = split_df[new_column_names[:4]]
-
-    df_lower = pd.concat([df_lower, split_df], axis=1)
-
-    df_lower.to_csv(path_save, index=False)
-
-
-
 
 #if it is in radlex, return the url
 def is_in_radlex(df_radlex, string):
@@ -75,6 +49,7 @@ def is_in_umls(string):
         return ''
     else:
         return results[0]['ui']
+
 
 
 
